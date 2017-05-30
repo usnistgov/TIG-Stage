@@ -1,7 +1,7 @@
 ---
 layout: cover
-title: "Draft NIST SP 800-63-3 Digital Identity Guidelines"
-description: "Public Comment for Draft NIST Special Publication: SP 800-63-3 Digital Identity Guidelines"
+title: "Staging Area For SP 800-63-3 Digital Identity Guidelines"
+description: "NIST Special Publication: SP 800-63-3 Digital Identity Guidelines"
 ---
 <section class="home home-title" markdown="1">
 
