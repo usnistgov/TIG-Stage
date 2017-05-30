@@ -5,11 +5,10 @@ description: "NIST Special Publication: SP 800-63-3 Digital Identity Guidelines"
 ---
 <section class="home home-title" markdown="1">
 
-# DRAFT
+# -- STAGING AREA ONLY --
 
-# STAGING AREA ONLY.
+Visit https://pages.nist.gov/800-63-3 for the latest draft.  
 
-Visit https://pages.nist.gov/800-63-3 for the latest draft
 
 </section>
 <section class="home home-about" markdown="1">
