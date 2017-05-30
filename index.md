@@ -7,7 +7,7 @@ description: "NIST Special Publication: SP 800-63-3 Digital Identity Guidelines"
 
 # -- STAGING AREA ONLY --
 
-Visit https://pages.nist.gov/800-63-3 for the latest draft.  
+Visit https://pages.nist.gov/800-63-3 for the latest draft.  <br><br>
 
 
 </section>
