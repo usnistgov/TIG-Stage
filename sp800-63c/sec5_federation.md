@@ -13,11 +13,13 @@ In a federation protocol, a three-party relationship is formed between the subsc
 <a name="63cSec5-Figure1"></a>
 
 <div class="text-center" markdown="1">
-![Figure 1: Federation](sp800-63c/media/federation.png)
+
+<img src="sp800-63c/media/federation.png" alt="Federation Overview" style="width:628px;height:600px;;min-width: 628px;min-height:600px;"/>
 
 **Figure 5-1. Federation**
 
 </div>
+
 
 The subscriber authenticates to the IdP, and then the result of that authentication event is asserted to the RP across the network. In this transaction, the IdP acts as the verifier for the credential as described in [[SP 800-63B]](sp800-63b.html). The IdP can also make attribute statements about the subscriber as part of this process. These attributes and authentication event information are carried to the RP through the use of an assertion, described in [Section 6](#assertions). Additional attributes MAY be made available through a secondary protocol protected by an authorized credential.
 
@@ -38,7 +40,7 @@ In the manual registration model, the IdP and RP manually provision configuratio
 
 </div>
 
-As shown in [Figure 5-2](#63cSec5-Figure2), manual registration involves three steps: 
+As shown in [Figure 5-2](#63cSec5-Figure2), manual registration involves three steps:
 
 1. The system administrator of the RP shares the RP's attributes with the system administrator the IdP, who associates those attributes with the RP.
 
@@ -66,7 +68,7 @@ In the dynamic registration model of federation, it is possible for relationship
 
 </div>
 
-As shown in [Figure 5-3](#63cSec5-Figure3), dynamic registration involves four steps: 
+As shown in [Figure 5-3](#63cSec5-Figure3), dynamic registration involves four steps:
 
 1. Discover. The RP goes to a well-known location at the IdP to find the IdP's metadata.
 
@@ -88,7 +90,7 @@ Some federated parties defer to an authority known as a *federation authority* t
 
 Federation authorities approve identity providers to operate at certain IALs, AALs, and FALs. This information is used by relying parties as shown in the right side of [Figure 5-4](#63cSec5-Figure4) to determine which identity providers meet their requirements.
 
-Federation authorities SHALL establish parameters regarding expected and acceptable IALs, AALs, and FALs in connection with the federated relationships they enable. Federation authorities SHALL individually vet each participant in the federation to determine that they adhere to their expected security, identity, and privacy standards. 
+Federation authorities SHALL establish parameters regarding expected and acceptable IALs, AALs, and FALs in connection with the federated relationships they enable. Federation authorities SHALL individually vet each participant in the federation to determine that they adhere to their expected security, identity, and privacy standards.
 
 <a name="63cSec5-Figure4"></a>
 
