@@ -2,13 +2,13 @@
 
 # <a name="800-63c"></a> DRAFT NIST Special Publication 800-63C
 
-![](../assets/div-1.png)  
+![](sp800-63-3/media/div-1.png)  
 
 # Digital Identity Guidelines  
 
 ### _Federation and Assertions_
 
-![](../assets/div-2.png)  
+![](sp800-63-3/media/div-2.png)  
 
 Paul A. Grassi  
 Justin P. Richer  

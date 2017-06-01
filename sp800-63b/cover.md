@@ -3,13 +3,13 @@
 
 # <a name="800-63b"></a> DRAFT NIST Special Publication 800-63B
 
-![](../assets/div-1.png)  
+![](sp800-63-3/media/div-1.png)  
 
 # Digital Identity Guidelines
 
 ### _Authentication and Lifecycle Management_
 
-![](../assets/div-2.png)  
+![](sp800-63-3/media/div-2.png)  
 
 Paul A. Grassi    
 James L. Fenton    

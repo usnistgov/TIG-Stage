@@ -2,13 +2,13 @@
 
 # <a name="800-63a"></a> DRAFT NIST Special Publication 800-63A
 
-![](../assets/div-1.png)  
+![](sp800-63-3/media/div-1.png)  
 
 # Digital Identity Guidelines
 
 ### _Enrollment and Identity Proofing Requirements_
 
-![](../assets/div-1.png)  
+![](sp800-63-3/media/div-1.png)  
 
 Paul A. Grassi  
 James L. Fenton  

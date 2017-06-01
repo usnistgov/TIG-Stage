@@ -3,11 +3,11 @@
 # <a name="800-63-3"></a> DRAFT NIST Special Publication 800-63
 # Revision 3
 
-![](../assets/div-1.png)  
+![](sp800-63-3/media/div-1.png)  
 
 # Digital Identity Guidelines
 
-![](../assets/div-2.png)  
+![](sp800-63-3/media/div-2.png)  
 
 Paul A. Grassi  
 Michael E. Garcia  
