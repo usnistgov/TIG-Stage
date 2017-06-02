@@ -1,12 +1,12 @@
 <div class="text-right" markdown="1">
 
 # <a name="800-63-3"></a> DRAFT NIST Special Publication 800-63
-# Revision 3
+# Revision 3  
 
 <img src="sp800-63-3/media/div-1.png"/>
 
 
-# Digital Identity Guidelines
+# Digital Identity Guidelines  
 
 ![](sp800-63-3/media/div-2.png)  
 
