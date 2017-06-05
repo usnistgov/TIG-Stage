@@ -5,9 +5,9 @@
 
 *This section is normative.*
 
-This section defines allowable Federation Assurance Levels, or FAL. The FAL describes requirements for how assertions and constructed and secured for a given transaction. These levels can be requested by an RP or required by the configuration of both the RP and the IdP for a given transaction. 
+This section defines allowable Federation Assurance Levels, or FAL. The FAL describes requirements for how assertions are constructed and secured for a given transaction. These levels can be requested by an RP or required by the configuration of both the RP and the IdP for a given transaction. 
 
-All assertions SHALL be used with a federation protocol as described in [Section 4](#federation). All assertions SHALL comply with the detailed requirements in [Section 6](#assertions). All assertions SHALL be presented using one of the methods described in [Section 7](#presentation). While many different federation implementation options are possible, the FAL is intended to provide clear implementation recommendations representing increasingly secure deployment choices. Combinations of aspects not found in the FAL table are possible but outside the scope of this document. See [SP 800-63-3 Section 6.3](sp800-63-3.html#FAL_CYOA) for details on how to choose the most appropriate FAL.
+All assertions SHALL be used with a federation protocol as described in [Section 4](#federation). All assertions SHALL comply with the detailed requirements in [Section 6](#assertions). All assertions SHALL be presented using one of the methods described in [Section 7](#presentation). While many different federation implementation options are possible, the FAL is intended to provide clear implementation recommendations representing increasingly secure deployment options. Combinations of aspects not found in the FAL table are possible but outside the scope of this document. See [SP 800-63-3 Section 6.3](sp800-63-3.html#FAL_CYOA) for details on how to choose the most appropriate FAL.
 
 This table presents different requirements for each FAL. Each successive level subsumes and fulfills all requirements of lower levels. Federations presented through a proxy SHALL be represented by the lowest level used during the proxied transaction.
 
@@ -34,7 +34,7 @@ If the RP is using a front-channel presentation mechanism as defined in [Section
 
 In addition, the IdP SHALL employ appropriately tailored security controls, to include control enhancements, from the moderate or high baseline of security controls defined in [[SP 800-53]](#SP800-53) or equivalent federal (e.g. [[FEDRAMP]](#FEDRAMP))  or industry standard.
 
-### 4.1. Key Management
+### <a name="key-mgmt"></a>4.1. Key Management
 
 At any FAL, the IdP SHALL ensure that an RP is unable to impersonate the IdP at another RP by protecting the assertion with a signature and key using approved cryptography. If the assertion is protected by a digital signature using an asymmetric key, the IdP MAY use the same public and private key pair to sign assertions to multiple RPs. The IdP MAY publish its public key in a verifiable fashion, such as at an HTTPS-protected URL at a well-known location. If the assertion is protected by a MAC using a shared key, the IdP SHALL use a different shared key for each RP.
 

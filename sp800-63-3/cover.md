@@ -3,27 +3,11 @@
 # <a name="800-63-3"></a> DRAFT NIST Special Publication 800-63
 # Revision 3
 
-</div>
+![](sp800-63-3/media/div-1.png)  
 
-<div class="text-right" markdown="1">
-
-![](sp800-63-3/media/div-1.png)    
-
-</div>
-
-<div class="text-right" markdown="1">
-
-# Digital Identity Guidelines  
-
-</div>
-
-<div class="text-right" markdown="1">
+# Digital Identity Guidelines
 
 ![](sp800-63-3/media/div-2.png)  
-
-</div>
-
-<div class="text-right" markdown="1">
 
 Paul A. Grassi  
 Michael E. Garcia  
@@ -95,12 +79,9 @@ CODEN: NSPUE2
 
 </div>
 
-{::comment}
 
 This publication is available free of charge from:
-http://dx.doi.org/10.6028/NIST.SP.XXX  
-
-{:/comment}
+https://doi.org/10.6028/NIST.SP.800-63-3 
 
 <div class="text-justify" markdown="1">
 >Certain commercial entities, equipment, or materials may be identified in this document in order to describe an experimental procedure or concept adequately. Such identification is not intended to imply recommendation or endorsement by NIST, nor is it intended to imply that the entities, materials, or equipment are necessarily the best available for the purpose.
@@ -165,7 +146,7 @@ related assertions. This publication supersedes NIST SP 800-63-1 and SP 800-63-2
 </div>
 
 authentication; authentication assurance; authenticator; assertions; credential service provider;
-digital authentication; digital credentials; identity proofing; federation;
+digital authentication; digital credentials; identity proofing; federation; 
 passwords; PKI.
 
 <div class="text-center" markdown="1">
@@ -202,19 +183,19 @@ Digital identity is the online persona of a subject, and a single definition is 
 
 Digital identity as a legal identity further complicates the definition and ability to use digital identities across a range of social and economic use cases.  Digital identity is hard.  Proving someone is who they say they are - especially remotely, via a digital service - is fraught with opportunities for an attacker to successfully impersonate someone. As correctly captured by [Peter Steiner in The New Yorker](#steiner): "On the internet, nobody knows you're a dog." These guidelines provide mitigations to the vulnerabilities inherent online, while recognizing and encouraging that when accessing some low-risk digital services, 'being a dog' is just fine;  other, high-risk services need a level of confidence that the digital identity accessing the service is the legitimate proxy to the real life subject.  
 
-For these guidelines, digital identity is the unique representation of a subject engaged in an online transaction. A digital identity is always unique in the context of a digital service, but does not necessarily need to uniquely identify the subject in all contexts. In other words, accessing a digital service may not mean that the physical representation of the underlying subject is known.
+For these guidelines, digital identity is the unique representation of a subject engaged in an online transaction. A digital identity is always unique in the context of a digital service, but does not necessarily need to uniquely identify the subject in all contexts. In other words, accessing a digital service may not mean that the physical representation of the underlying subject is known. 
 
 Identity proofing establishes that a subject is who they claim to be. Digital authentication establishes that a subject attempting to access a digital service is in control of one or more valid authenticators associated with that subject's digital identity. For services in which return visits are applicable, successfully authenticating provides reasonable risk-based assurances that the subject accessing the service today is the same as that which accessed the service previously. Digital identity presents a technical challenge because this process often involves the proofing of individuals over an open network, and always involves the authentication of individual subjects over an open network to access digital government services. The processes and technologies to establish and use digital identities offer multiple opportunities for impersonation and other attacks.
 
-These technical guidelines supersede NIST Special Publication (SP) 800-63-1 and SP 800-63-2. Agencies use these guidelines as part of the risk assessment and implementation of its digital service(s). These guidelines provide mitigations of an authentication error's negative impacts by separating the individual elements of identity assurance into discrete, component parts. For non-federated systems, agencies will select two components, referred to as *Identity Assurance Level (IAL)* and *Authenticator Assurance Level (AAL)*. For federated systems, agencies will select a third component, *Federation Assurance Level (FAL)*.
+These technical guidelines supersede NIST Special Publication (SP) 800-63-1 and SP 800-63-2. Agencies use these guidelines as part of the risk assessment and implementation of its digital service(s). These guidelines provide mitigations of an authentication error's negative impacts by separating the individual elements of identity assurance into discrete, component parts. For non-federated systems, agencies will select two components, referred to as *Identity Assurance Level (IAL)* and *Authenticator Assurance Level (AAL)*. For federated systems, agencies will select a third component, *Federation Assurance Level (FAL)*. 
 
-These guidelines retire the concept of a level of assurance (LOA) as a single ordinal that drives implementation-specific requirements. Rather, by combining appropriate business and privacy risk management side-by-side with mission need, agencies will select IAL, AAL, and FAL as distinct options; while many systems will have the same numerical level for each of IAL, AAL, and FAL, this is not a requirement and agencies should not assume they will be the same in any given system.
+These guidelines retire the concept of a level of assurance (LOA) as a single ordinal that drives implementation-specific requirements. Rather, by combining appropriate business and privacy risk management side-by-side with mission need, agencies will select IAL, AAL, and FAL as distinct options; while many systems will have the same numerical level for each of IAL, AAL, and FAL, this is not a requirement and agencies should not assume they will be the same in any given system. 
 
 The components of identity assurance detailed in these guidelines are as follows:
 
 * **IAL** refers to the identity proofing process.
 * **AAL** refers to the authentication process.
-* **FAL** refers to the assertion protocol used in a federated environment to communicate authentication and attribute information (if applicable) to a relying party (RP).
+* **FAL** refers to the strength of an assertion in a federated environment, used to communicate authentication and attribute information (if applicable) to a relying party (RP).  
 
 The separation of these categories provides agencies flexibility in the identity solutions they choose and increases the ability to include privacy-enhancing techniques as fundamental elements of identity systems at any assurance level.  For example, these guidelines support scenarios that will allow pseudonymous interactions even when strong, multi-factor authenticators are used.  In addition, these guidelines encourage minimizing the dissemination of identifying information by requiring federated identity providers (IdPs) to support a range of options for querying data, such as asserting whether an individual is older than a certain age rather than querying the entire date of birth. While many agency use cases will require individuals to be fully identified, these guidelines encourage pseudonymous access to government digital services wherever possible and, even where full identification is necessary, limiting the amount of personal information collected as much as possible.
 
@@ -251,7 +232,7 @@ The three AALs define the subsets of options agencies can select based on their 
 
 **AAL1** - AAL1 provides some assurance that the claimant controls an authenticator registered to the subscriber. AAL1 requires single-factor authentication using a wide range of available authentication technologies. Successful authentication requires that the claimant prove possession and control of the authenticator through a secure authentication protocol.
 
-**AAL2** - AAL2 provides high confidence that the claimant controls authenticator(s) registered to the subscriber. Proof of possession and control of two different authentication factors is required through secure authentication protocol(s). Approved cryptographic techniques are required at AAL2 and above.
+**AAL2** - AAL2 provides high confidence that the claimant controls authenticator(s) registered to the subscriber. Proof of possession and control of two different authentication factors is required through secure authentication protocol(s). [Approved cryptographic](#approved) techniques are required at AAL2 and above.
 
 **AAL3** - AAL3 provides very high confidence that the claimant controls authenticator(s) registered to the subscriber. Authentication at AAL3 is based on proof of possession of a key through a cryptographic protocol. AAL3 is like AAL2 but also requires a "hard" cryptographic authenticator that provides verifier impersonation resistance.
 
