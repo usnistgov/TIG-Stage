@@ -41,7 +41,7 @@ The following provides a sample of how a CSP and an applicant interact during th
 	<li><strong>Validation</strong></li>
   		<ol type="a" start="a">  
 			<li>The CSP asks the applicant for a photo of themselves to match to the license and passport.</li>
-			<li>The CSP validates the information supplied in 1.a. by checking an authoritative source they maintain. The CSP determines the information supplied by the applicant matches their records.</li>  
+			<li>The CSP validates the information supplied in 1.a. by checking an authoritative source. The CSP determines the information supplied by the applicant matches their records.</li>  
 			<li>The CSP checks the images of the license and the passport, determines there are no alterations, the data encoded in the QR codes  matches the plain-text information, and that the identification numbers follow standard formats.</li>  
 			<li>The CSP queries the issuing sources for the license and passport and validates the information matches.</li>
 		</ol>
@@ -157,14 +157,6 @@ The CSP SHALL support in-person or remote identity proofing. The CSP SHOULD offe
 	  		<li>The CSP MAY provide an enrollment code directly to the subscriber if binding to an authenticator will occur at a later time.</li>
 	  		<li>The enrollment code SHALL be valid for a maximum of 7 days.</li>
   		</ol>
-
-
-  		<ol type="a" start="a">  
-			<li>The CSP asks the applicant for a photo of themselves to match to the license and passport.</li>
-			<li>The CSP validates the information supplied in 1.a. by checking an authoritative source they maintain. The CSP determines the information supplied by the applicant matches their records.</li>  
-			<li>The CSP checks the images of the license and the passport, determines there are no alterations, the data encoded in the QR codes  matches the plain-text information, and that the identification numbers follow standard formats.</li>  
-			<li>The CSP queries the issuing sources for the license and passport and validates the information matches.</li>
-		</ol>
 	<li><strong>If the CSP performs remote proofing (unsupervised):</strong></li>
 		<ol type="a" start="a">  
 			<li>The CSP SHALL send an enrollment code to a confirmed address of record for the applicant.</li>
@@ -176,7 +168,7 @@ The CSP SHALL support in-person or remote identity proofing. The CSP SHOULD offe
 		</ol>
 </ol>
 
-</div>	 
+</div>
 
 > Note: Postal address is the preferred method of sending any communications, to include enrollment code and notifications, with the applicant. However, this guideline supports any confirmed address of record, whether physical or digital.
 
@@ -186,7 +178,7 @@ The CSP MAY collect biometrics for the purposes of non-repudiation and re-proofi
 
 #### 4.4.1.8. Security Controls
 
-The CSP SHALL employ appropriately tailored security controls, to include control enhancements, from the moderate or high baseline of security controls defined in [[SP 800-53]](#SP800-53) or equivalent federal (e.g., [FEDRAMP](#FEDRAMP))  or industry standard.
+The CSP SHALL employ appropriately tailored security controls, to include control enhancements, from the moderate or high baseline of security controls defined in [[SP 800-53]](#SP800-53) or equivalent federal (e.g., [FEDRAMP](#FEDRAMP))  or industry standard. The CSP SHALL ensure that the minimum assurance-related controls for *moderate-impact* systems or equivalent are satisfied.
 
 #### <a name="referee"></a>4.4.2. IAL2 Trusted Referee Proofing Requirements
 
@@ -246,7 +238,7 @@ The CSP SHALL collect and record a biometric sample at the time of proofing (e.g
 
 #### 4.5.8. Security  Controls
 
-The CSP SHALL employ appropriately tailored security controls, to include control enhancements, from the High baseline of security controls defined in [SP 800-53](#SP800-53) or an equivalent federal (e.g., [FEDRAMP](#FEDRAMP)) or industry standard.
+The CSP SHALL employ appropriately tailored security controls, to include control enhancements, from the high baseline of security controls defined in [SP 800-53](#SP800-53) or an equivalent federal (e.g., [FEDRAMP](#FEDRAMP)) or industry standard. The CSP SHALL ensure that the minimum assurance-related controls for *high-impact* systems or equivalent are satisfied.
 
 ### <a name="enrollmentcode"></a> 4.6. Enrollment Code
 
