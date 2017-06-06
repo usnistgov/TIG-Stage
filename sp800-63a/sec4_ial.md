@@ -34,25 +34,26 @@ The following provides a sample of how a CSP and an applicant interact during th
 
 <ol type="1" start="1">
 	<li>**Resolution**</li>
-	<ol type="a" start="a">
-		<li>The CSP collects PII from the applicant, such as name, address, date of birth, email, and phone number.</li>  
+		<ol type="a" start="a">
+			<li>The CSP collects PII from the applicant, such as name, address, date of birth, email, and phone number.</li>  
 	  	<li>The CSP also collects two forms of identity evidence, such as a driver license and a passport. For example, using the camera of a laptop, the CSP can capture a photo of both sides of both pieces of identity evidence.</li>
   	</ol>
-  	<li><**Validation**</li>
+	<li><**Validation**</li>
   		<ol type="a" start="a">  
 			<li>The CSP asks the applicant for a photo of themselves to match to the license and passport.</li>
 			<liThe CSP validates the information supplied in 1.a. by checking an authoritative source they maintain. The CSP determines the information supplied by the applicant matches their records.</li>  
 			<li>The CSP checks the images of the license and the passport, determines there are no alterations, the data encoded in the QR codes  matches the plain-text information, and that the identification numbers follow standard formats.</li>  
 			<li>The CSP queries the issuing sources for the license and passport and validates the information matches.</li>
 		</ol>
-	<li**Verification**</li>
+	<li>**Verification**</li>
 		<ol type="a" start="a">  
-			<li>The CSP asks the applicant for a photo of themselves to match to the license and passport.</li> 
+			<li>The CSP asks the applicant for a photo of themselves to match to the license and passport.</li>
 			<li>The CSP matches the pictures on the license and the passport to the applicant picture and determines they match.</li>    
 			<li>The CSP sends an enrollment code to the validated phone number of the applicant, the user provides the enrollment code to the CSP, and the CSP confirms they match, verifying the user is in possession and control of the validated phone number.</li>  
 			<li>The applicant has been successfully proofed.</li>
 		</ol>
-</ol>	
+</ol>
+</div>
 
 
 ### <a name="genProofReqs"></a> 4.2. General Requirements
@@ -93,7 +94,7 @@ The following requirements apply to any CSP performing identity proofing at IAL2
   c. The agency SHALL consult with their SAOP to conduct an analysis to determine whether the collection of PII to conduct identity proofing triggers the requirements of the E-Government Act of 2002.  
   d. The agency SHALL publish a Privacy Impact Assessment (PIA) to cover such collection, as applicable.
 
-<a name="4.2-r13"></a> 
+<a name="4.2-r13"></a>
 13. The CSP SHOULD NOT collect the SSN unless it is necessary for performing identity resolution and cannot be accomplished by collection of another attribute or combination of attributes.
 
 ### 4.3. Identity Assurance Level 1
