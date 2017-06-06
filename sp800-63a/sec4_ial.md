@@ -75,7 +75,7 @@ The following requirements apply to any CSP performing identity proofing at IAL2
 			<ol type="a" start="a">
 				<li>Any steps that it will take to verify the identity of the applicant beyond any mandatory requirements specified herein;</li>
 				<li>The PII, including any biometrics, images, scans, or other copies of the identity evidence that the CSP will maintain as a record of identity proofing (Note: Specific federal requirements may apply.); and</li>
-				<liThe schedule of retention for these records (Note: CSPs may be subject to specific retention policies in accordance with applicable laws, regulations, or policies, including any National Archives and Records Administration (NARA) records retention schedules that may apply).></li>
+				<li>The schedule of retention for these records (Note: CSPs may be subject to specific retention policies in accordance with applicable laws, regulations, or policies, including any National Archives and Records Administration (NARA) records retention schedules that may apply).></li>
 			</ol>
 		<li><a name="4.2-r8"></a>All PII collected as part of the enrollment process SHALL be protected to ensure confidentiality, integrity, and attribution of the information source.</li>
 		<li><a name="4.2-r9"></a>The entire proofing transaction, including transactions that involve a third party, SHALL occur over an authenticated protected channel.</li>
