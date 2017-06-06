@@ -41,7 +41,7 @@ The following provides a sample of how a CSP and an applicant interact during th
 	<li><strong>Validation</strong></li>
   		<ol type="a" start="a">  
 			<li>The CSP asks the applicant for a photo of themselves to match to the license and passport.</li>
-			<liThe CSP validates the information supplied in 1.a. by checking an authoritative source they maintain. The CSP determines the information supplied by the applicant matches their records.</li>  
+			<li>The CSP validates the information supplied in 1.a. by checking an authoritative source they maintain. The CSP determines the information supplied by the applicant matches their records.</li>  
 			<li>The CSP checks the images of the license and the passport, determines there are no alterations, the data encoded in the QR codes  matches the plain-text information, and that the identification numbers follow standard formats.</li>  
 			<li>The CSP queries the issuing sources for the license and passport and validates the information matches.</li>
 		</ol>
