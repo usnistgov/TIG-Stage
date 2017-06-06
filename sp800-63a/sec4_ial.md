@@ -145,23 +145,38 @@ The CSP SHALL support in-person or remote identity proofing. The CSP SHOULD offe
 
 #### <a name="4-4-1-6"></a> 4.4.1.6. Address Confirmation
 
-1. Valid records to confirm address SHALL be issuing source(s) or authoritative source(s).
-2. The CSP SHALL confirm address of record. The CSP SHOULD confirm address of record through validation of the address contained on any supplied, valid piece of identity evidence. The CSP MAY confirm address of record by validating information supplied by the applicant that is not contained on any supplied piece of identity evidence.
-3. Self-asserted address data that has not been confirmed in records SHALL NOT be used for confirmation.
-4. **If CSP performs in-person proofing (physical or supervised remote):**  
+<div class="text-left" markdown="0">
 
-	a. The CSP SHOULD send a notification of proofing to a confirmed address of record.  
-	b. The CSP MAY provide an enrollment code directly to the subscriber if binding to an authenticator will occur at a later time.  
-	c. The enrollment code SHALL be valid for a maximum of 7 days.  
+<ol type="1" start="1">
+	<li>Valid records to confirm address SHALL be issuing source(s) or authoritative source(s).</li>
+	<li>The CSP SHALL confirm address of record. The CSP SHOULD confirm address of record through validation of the address contained on any supplied, valid piece of identity evidence. The CSP MAY confirm address of record by validating information supplied by the applicant that is not contained on any supplied piece of identity evidence.</li>
+	<li>Self-asserted address data that has not been confirmed in records SHALL NOT be used for confirmation.</li>
+	<li><strong>If CSP performs in-person proofing (physical or supervised remote):</strong></li>
+		<ol type="a" start="a">
+			<li>The CSP SHOULD send a notification of proofing to a confirmed address of record.</li>  
+	  		<li>The CSP MAY provide an enrollment code directly to the subscriber if binding to an authenticator will occur at a later time.</li>
+	  		<li>The enrollment code SHALL be valid for a maximum of 7 days.</li>
+  		</ol>
 
-5. **If the CSP performs remote proofing (unsupervised):**  
 
-	a. The CSP SHALL send an enrollment code to a confirmed address of record for the applicant.  
-	b. The applicant SHALL present a valid enrollment code to complete the identity proofing process.  
-	c. The CSP SHOULD send the enrollment code to the postal address that has been validated in records.  The CSP MAY send the enrollment code to a mobile telephone (SMS or voice), landline telephone, or email if it has been validated in records.  
-	d. If the enrollment code is also intended to be an authentication factor, it SHALL be reset upon first use.  
-	e. Enrollment codes sent to a postal address of record SHALL be valid for a maximum of 10 days but MAY be made valid up to 30 days via an exception process to accommodate addresses outside the contiguous United States. Enrollment codes sent by telephone SHALL be valid for a maximum of 10 minutes. Enrollment codes sent via email SHALL be valid for a maximum of 24 hours.  
-	f. The CSP SHALL ensure the enrollment code and notification of proofing are sent to different addresses of record. For example, if the CSP sends an enrollment code to a phone number validated in records, a notification of proofing will be sent to the postal address validated in records or obtained from validated and verified evidence, such as a driver license.  
+  		<ol type="a" start="a">  
+			<li>The CSP asks the applicant for a photo of themselves to match to the license and passport.</li>
+			<li>The CSP validates the information supplied in 1.a. by checking an authoritative source they maintain. The CSP determines the information supplied by the applicant matches their records.</li>  
+			<li>The CSP checks the images of the license and the passport, determines there are no alterations, the data encoded in the QR codes  matches the plain-text information, and that the identification numbers follow standard formats.</li>  
+			<li>The CSP queries the issuing sources for the license and passport and validates the information matches.</li>
+		</ol>
+	<li><strong>If the CSP performs remote proofing (unsupervised):</strong></li>
+		<ol type="a" start="a">  
+			<li>The CSP SHALL send an enrollment code to a confirmed address of record for the applicant.</li>
+			<li>The applicant SHALL present a valid enrollment code to complete the identity proofing process.</li>    
+			<li>The CSP SHOULD send the enrollment code to the postal address that has been validated in records.  The CSP MAY send the enrollment code to a mobile telephone (SMS or voice), landline telephone, or email if it has been validated in records.</li>  
+			<li>If the enrollment code is also intended to be an authentication factor, it SHALL be reset upon first use.</li>
+			<li>Enrollment codes sent to a postal address of record SHALL be valid for a maximum of 10 days but MAY be made valid up to 30 days via an exception process to accommodate addresses outside the contiguous United States. Enrollment codes sent by telephone SHALL be valid for a maximum of 10 minutes. Enrollment codes sent via email SHALL be valid for a maximum of 24 hours.</li>
+			<li>The CSP SHALL ensure the enrollment code and notification of proofing are sent to different addresses of record. For example, if the CSP sends an enrollment code to a phone number validated in records, a notification of proofing will be sent to the postal address validated in records or obtained from validated and verified evidence, such as a driver license.</li>
+		</ol>
+</ol>
+
+</div>	 
 
 > Note: Postal address is the preferred method of sending any communications, to include enrollment code and notifications, with the applicant. However, this guideline supports any confirmed address of record, whether physical or digital.
 
