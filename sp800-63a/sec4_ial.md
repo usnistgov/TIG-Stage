@@ -65,7 +65,7 @@ The following requirements apply to any CSP performing identity proofing at IAL2
 <li><a name="4.2-r4"></a>The CSP SHALL NOT use attributes collected and maintained for the identity proofing process for any purpose other than identity proofing, authentication, assertion of attributes, or to comply with law or legal process unless the CSP provides clear notice and obtains consent from the applicant for additional uses. CSPs SHALL NOT make such consent a condition of the service.</li>
 <li><a name="4.2-r5"></a>The CSP SHALL provide effective mechanisms for redress of applicant complaints or problems arising from the identity proofing process. These mechanisms SHALL be easy for applicants to find and access.</li>
 <li><a name="4.2-r6"></a>The identity proofing and enrollment processes SHALL be performed according to an applicable written policy or *practice statement* that specifies the particular steps taken to verify identities. The *practice statement* SHALL include control information that details how the CSP handles proofing errors that result in an applicant not being successfully enrolled. These errors might include the number of retries allowed, use of alternative proofing (i.e., in-person if remote fails), or fraud countermeasures applied when anomalies are detected.</li>
-<li><a name="4.2-r7"></a>The CSP SHALL maintain a record, to include audit logs, of all steps taken to verify the identity of the applicant and SHALL record the types of identity evidence presented in the proofing process. The CSP SHALL conduct a risk management process, including assessments of privacy and security risks to determine:<li>
+<li><a name="4.2-r7"></a>The CSP SHALL maintain a record, to include audit logs, of all steps taken to verify the identity of the applicant and SHALL record the types of identity evidence presented in the proofing process. The CSP SHALL conduct a risk management process, including assessments of privacy and security risks to determine:</li>
 <ol type="a" start="a">
 <li>Any steps that it will take to verify the identity of the applicant beyond the mandatory requirements specified herein;</li>
 <li>The PII, including any biometrics, images, scans, or other copies of the identity evidence that the CSP will maintain as a record of identity proofing. Note: Specific federal requirements may apply; and</li>  
@@ -83,7 +83,7 @@ The following requirements apply to any CSP performing identity proofing at IAL2
 <li>The agency SHALL publish a Privacy Impact Assessment (PIA) to cover such collection, as applicable.</li>
 </ol>
 <li><a name="4.2-r13"></a>The CSP SHOULD NOT collect the SSN unless it is necessary for performing identity resolution and cannot be accomplished by collection of another attribute or combination of attributes.</li>
-
+</ol>
 </div>
 
 
