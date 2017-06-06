@@ -38,7 +38,7 @@ The following provides a sample of how a CSP and an applicant interact during th
 			<li>The CSP collects PII from the applicant, such as name, address, date of birth, email, and phone number.</li>  
 	  	<li>The CSP also collects two forms of identity evidence, such as a driver license and a passport. For example, using the camera of a laptop, the CSP can capture a photo of both sides of both pieces of identity evidence.</li>
   	</ol>
-	<li><**Validation**</li>
+	<li>**Validation**</li>
   		<ol type="a" start="a">  
 			<li>The CSP asks the applicant for a photo of themselves to match to the license and passport.</li>
 			<liThe CSP validates the information supplied in 1.a. by checking an authoritative source they maintain. The CSP determines the information supplied by the applicant matches their records.</li>  
