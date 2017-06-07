@@ -159,8 +159,5 @@ table table{
 }
 
 table.authors{
-  border-collapse:collapse;
-  border-spacing:0;
-  border:0;
-  border-color: white;
+  border-color: red;
 }
