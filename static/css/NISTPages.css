@@ -161,7 +161,3 @@ table table{
 table.authors{
   border: 0px solid white;
 }
-
-table>authors>td{
-  border: 0px solid white;
-}
