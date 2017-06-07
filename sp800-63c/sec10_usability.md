@@ -2,7 +2,7 @@
 
 <a name="usability"></a>
 
-## 10. Usability Considerations
+## 10 Usability Considerations
 
 [ISO/IEC 9241-11](#ISO9241-11) defines usability as the "extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use."  This definition focuses on users, goals, and context of use as key elements necessary for achieving effectiveness, efficiency and satisfaction. A holistic approach considering these key elements is necessary to achieve usability.
 
@@ -10,7 +10,7 @@ From the usability perspective, one of the major potential benefits of federated
 
 While many other approaches to authentication have been researched extensively and have well-established usability guidelines, federated identity is more nascent and therefore lacks the depth and conclusiveness of research findings. As ongoing usability research matures, usability guidelines for federated identity systems will have stronger supporting data. For example, additional data is needed to support guidance on the translation of technical attribute names and values into user-friendly language.
 
-As stated in the usability sections in 800-63A and 800-63B, overall user experience is critical to the success of any authentication method. This is especially true for federated identity systems since federation is a less familiar user interaction paradigm for many users.  Users' prior authentication experience may influence their expectations.
+As stated in the usability sections in 800-63A and 800-63B, overall user experience is critical to the success of any authentication method. This is especially true for federated identity systems since federation is a less familiar user interaction paradigm for many users. Users' prior authentication experience may influence their expectations.
 
 The overall user experience with federated identity systems should be as smooth and easy as possible. This can be accomplished by following usability standards (such as the ISO 25060 series of standards) and established best practices for user interaction design.
 
@@ -23,7 +23,7 @@ Guidelines and considerations are described from the users' perspective.
 
 Accessibility differs from usability and is out of scope for this document. [Section 508](#Section508) was enacted to eliminate barriers in information technology and require federal agencies to make their electronic and information technology public content accessible to people with disabilities. Refer to Section 508 law and standards for accessibility guidance.
 
-### 10.1. General Usability Considerations 
+### 10.1 General Usability Considerations 
 
 Federated identity systems should:
 
@@ -51,13 +51,13 @@ Federated identity systems should:
 * Perform integrative and continuous usability evaluations with representative users and realistic tasks in an appropriate context to ensure success of federated identity systems from the users' perspectives.
 
 
-### 10.2. Specific Usability Considerations
+### 10.2 Specific Usability Considerations
 
 This section addresses the specific usability considerations that have been identified with federated identity systems. This section does not attempt to present exhaustive coverage of all usability factors related to federated identity systems; rather it is focused on the larger, more pervasive themes in the usability literature, primarily users' perspectives on identity, user adoption, trust, and perceptions of federated identity space. In some cases, implementation examples are provided. However, specific solutions are not prescribed. The implementations mentioned are examples to encourage innovative technological approaches to address specific usability needs. See standards for system design and coding, specifications, APIs, and current best practices (such as OpenID and OAuth) for additional examples. Implementations are sensitive to many factors that prevent a one-size-fits-all solution.
 
-#### 10.2.1. User Perspectives on Online Identity
+#### 10.2.1 User Perspectives on Online Identity
 
-Even when users are familiar with federated identity systems, there are different approaches to federated identity, especially in terms of privacy and the sharing of information, that make it necessary to establish reliable expectations for how users' data are treated. Users and implementers have different concepts of identity. Users think of identity as logging in  and gaining access to their own private space. Implementers think of identity in terms of authenticators and assertions, assurance levels, and the necessary set of identity attributes to provide a service.  Given this disconnect between users' and implementers' concepts of identity, it is essential to help users form an accurate concept of identity as it applies to federated identity systems. A good model of identity provides users a foundation for understanding the benefits and risks of federated systems and encourage user adoption and trust of these systems.
+Even when users are familiar with federated identity systems, there are different approaches to federated identity, especially in terms of privacy and the sharing of information, that make it necessary to establish reliable expectations for how users' data are treated. Users and implementers have different concepts of identity. Users think of identity as logging in  and gaining access to their own private space. Implementers think of identity in terms of authenticators and assertions, assurance levels, and the necessary set of identity attributes to provide a service. Given this disconnect between users' and implementers' concepts of identity, it is essential to help users form an accurate concept of identity as it applies to federated identity systems. A good model of identity provides users a foundation for understanding the benefits and risks of federated systems and encourage user adoption and trust of these systems.
 
 Many properties of identity have implications for how users manage identities both within and among federations. Just as users manage multiple identities based on context outside of cyberspace, users must learn to manage their identity in a federated environment. Therefore, it must be clear to users how identity and context are used.
 
@@ -80,7 +80,7 @@ Many properties of identity have implications for how users manage identities bo
 
 * Provide means for users to manage each IdP to RP connection, including complete separation as well as the removal of RP access to one or more attributes.
 
-#### 10.2.2. User Perspectives of Trust and Benefits
+#### 10.2.2 User Perspectives of Trust and Benefits
 
 
 Many factors can influence user adoption of federated identity systems. As with any technology, users may value some factors more than others. Users often weigh perceived benefits versus risks before making technology adoption decisions. It is critical that IdPs and RPs provide users with sufficient information to enable them to make informed adoption decisions. The concepts of trust, and tiers of trust, fundamental principles in federated identity systems, can drive user adoption. Finally, a positive user experience may also result in increased demand of federation by users, triggering increased adoption by RPs.
@@ -107,7 +107,7 @@ To encourage user adoption, IdPs and RPs need to establish and build trust with 
 
 User concern over risk can negatively influence willingness to adopt federated identity systems. Users may have trust concerns, privacy concerns, security concerns, and single-point-of-failure concerns. For example, users may be fearful of losing access to multiple accounts if a single IdP is unavailable, either temporarily or permanently. Additionally, users may be concerned or confused about learning a new authentication paradigm. User perception of benefits must outweigh risk perception in order to foster adoption of federated identity systems. 
 
-#### 10.2.3. User Models and Beliefs
+#### 10.2.3 User Models and Beliefs
 
 Users' beliefs and perceptions predispose them to expect certain results and behave in certain ways. Such beliefs, perceptions, and predispositions are referred to in the social sciences as mental models. For example, people have a mental model of dining out which guides their behavior and expectations at each establishment, such as fast food restaurants, cafeterias, and more formal restaurants. Thus, it is not necessary to be familiar with every establishment to understand how to interact appropriately at each one.
 
@@ -119,4 +119,4 @@ Assisting users in establishing good and complete mental models of federation al
 
 * Provide users with clear and usable ways (e.g., visual assurance) to determine the authenticity of the transacting  parties (e.g., RPs, IdPs, and brokers). This will also help to alleviate user concern over leaving one domain for another, especially if the root domain changes (e.g., .gov to .com). For example, display the URL of the IdP so that the user can verify that they are not being phished by a malicious site.
 
-* Provide users with clear information, including visual cues, regarding implicit logins and explicit logouts. Depending on the implementation, logging into a RP with an IdP account may authenticate users to both the IdP and RP. Users may not realize that ending their session with the RP will not necessarily end their session with the IdP; users will need to explicitly "log out" of the IdP. Users require clear information to remind them if explicit logouts are required to end their IdP sessions.
+* Provide users with clear information, including visual cues, regarding implicit logins and explicit logouts. Depending on the implementation, logging into an RP with an IdP account may authenticate users to both the IdP and RP. Users may not realize that ending their session with the RP will not necessarily end their session with the IdP; users will need to explicitly "log out" of the IdP. Users require clear information to remind them if explicit logouts are required to end their IdP sessions.

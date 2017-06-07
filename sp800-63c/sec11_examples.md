@@ -1,15 +1,15 @@
 <div class="breaker"></div>
 <a name="examples"></a>
 
-## 11. Examples
+## 11 Examples
 
 *This section is informative.*
 
 Three types of assertion technologies are discussed below: SAML assertions, Kerberos tickets, and OpenID Connect tokens. This list is not inclusive of all possible assertion technologies, but does represent those that are commonly used in federated identity systems.
 
-### 11.1. Security Assertion Markup Language (SAML)
+### 11.1 Security Assertion Markup Language (SAML)
 
-SAML is an XML-based framework for creating and exchanging authentication and attribute information between trusted entities over the internet. As of this writing, the latest specification for \[[SAML](#SAML)\] is SAML v2.0, issued 15 March 2005.
+SAML is an XML-based framework for creating and exchanging authentication and attribute information between trusted entities over the internet. As of this writing, the latest specification for [SAML](#SAML) is SAML v2.0, issued 15 March 2005.
 
 The building blocks of SAML include:
 
@@ -39,7 +39,7 @@ SAML Assertions are encoded in an XML schema and can carry up to three types of 
 
 Authorization statements are beyond the scope of this document and will not be discussed.
 
-### 11.2. Kerberos Tickets <a name="kerberos"></a>
+### 11.2 Kerberos Tickets <a name="kerberos"></a>
 
 The Kerberos Network Authentication Service \[[RFC 4120](#RFC4120)\] was designed to provide strong authentication for client/server applications using symmetric-key cryptography on a local, shared network. Extensions to Kerberos can support the use of public key cryptography for selected steps of the protocol. Kerberos also supports confidentiality and integrity protection of session data between the subscriber and the RP. Even though Kerberos uses assertions, since it is designed for use on shared networks it is not truly a federation protocol. 
 
@@ -52,7 +52,7 @@ the Authentication Server (AS). The AS encrypts a session key for the
 subscriber using the subscriber's long term credential. The long term
 credential may either be a secret key shared between the AS and the
 subscriber, or in the PKINIT variant of Kerberos, a public key
-certificate. It should be noted that most variants of Kerberos based on
+certificate. Most variants of Kerberos based on
 a shared secret key between the subscriber and IdP derive this key
 from a user generated password. As such, they are vulnerable to offline
 dictionary attack by a passive eavesdropper unless Flexible Authentication
@@ -73,12 +73,12 @@ When Kerberos authentication is based on passwords, the protocol is known to
 be vulnerable to offline dictionary attacks by eavesdroppers who capture the
 initial user-to-KDC exchange. Longer password length and complexity provide
 some mitigation to this vulnerability, although sufficiently long passwords
-tend to be cumbersome for users.  However, when Kerberos password-based
+tend to be cumbersome for users. However, when Kerberos password-based
 authentication is used in a FAST (or similar) tunnel, a successful
 Man-in-the-Middle attack is additionally required in order to perform the
 dictionary attack.
 
-### 11.3. OpenID Connect
+### 11.3 OpenID Connect
 
 OpenID Connect [[OIDC]](#OIDC) is an internet-scale federated identity and authentication protocol built on top of the OAuth 2.0 authorization framework and the JSON Object Signing and Encryption (JOSE) cryptographic system.
 

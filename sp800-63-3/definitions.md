@@ -1,10 +1,10 @@
 <a name="def-and-acr"></a>
 
-## Appendix A&mdash;Definitions and Acronyms
+## Appendix A&mdash;Definitions and Abbreviations
 
 *This section is normative.*
 
-### A.1. Definitions
+### A.1 Definitions
 
 A wide variety of terms is used in the area of authentication. While many terms' definitions are consistent with earlier versions of SP 800-63, some have changed in this revision. Since there is no single, consistent definition for many of these terms, careful attention to how the terms are defined here is warranted.
 
@@ -26,7 +26,7 @@ A subject undergoing the processes of enrollment and identity proofing.
 Federal Information Processing Standard (FIPS) approved or NIST recommended. An algorithm or technique that is either 1) specified in a FIPS or NIST Recommendation, or 2) adopted in a FIPS or NIST Recommendation.
 
 #### Assertion
-A statement from a verifier to a RP that contains information about a subscriber. Assertions may also contain verified attributes.
+A statement from a verifier to an RP that contains information about a subscriber. Assertions may also contain verified attributes.
 
 #### Assertion Reference
 A data object, created in conjunction with an assertion, which identifies the verifier and includes a pointer to the full assertion held by the verifier.
@@ -35,7 +35,7 @@ A data object, created in conjunction with an assertion, which identifies the ve
 Two related keys, consisting of a public key and a private key, that are used to perform complementary operations such as encryption and decryption or signature verification and generation.
 
 #### Attack
-An attempt by an unauthorized entity to fool a verifier or a RP into believing that the unauthorized individual in question is the subscriber.
+An attempt by an unauthorized entity to fool a verifier or an RP into believing that the unauthorized individual in question is the subscriber.
 
 #### Attacker
 A party, including an insider, who acts with malicious intent to compromise a system.
@@ -140,7 +140,7 @@ While common usage often assumes that the credential is maintained by the subscr
 A trusted entity that issues or registers subscriber authenticators and issues electronic credentials to subscribers. A CSP may be an independent third party, or may issue credentials for its own use.
 
 #### Cross-site Request Forgery (CSRF)
-An attack in which a subscriber who is currently authenticated to a RP and connected through a secure session browses to an attacker's website, causing the subscriber to unknowingly invoke unwanted actions at the RP.
+An attack in which a subscriber who is currently authenticated to an RP and connected through a secure session browses to an attacker's website, causing the subscriber to unknowingly invoke unwanted actions at the RP.
 
 For example, if a bank website is vulnerable to a CSRF attack, it may be possible for a subscriber to unintentionally authorize a large money transfer, merely by viewing a malicious link in a webmail message while a connection to the bank is open in another browser window.
 
@@ -189,7 +189,7 @@ A measure of the amount of uncertainty that an attacker faces to determine the v
 The value where a sensor's false match rate (FMR) and false non-match rate (FNMR) are equal. EER is a figure of merit for the sensor; the lower the EER is, the more certain the sensor's decision is likely to be.
 
 #### Federal Information Processing Standard (FIPS)
-Under the Information Technology Management Reform Act (Public Law 104-106), the Secretary of Commerce approves the standards and guidelines developed by the National Institute of Standards and Technology (NIST) for Federal computer systems. These standards and guidelines are issued by NIST as Federal Information Processing Standards (FIPS) for use government-wide. NIST develops FIPS when there are compelling Federal government requirements, such as for security and interoperability and there are no acceptable industry standards or solutions. See background information for more details.
+Under the Information Technology Management Reform Act (Public Law 104-106), the Secretary of Commerce approves the standards and guidelines developed by the National Institute of Standards and Technology (NIST) for federal computer systems. These standards and guidelines are issued by NIST as Federal Information Processing Standards (FIPS) for use government-wide. NIST develops FIPS when there are compelling federal government requirements, such as for security and interoperability and there are no acceptable industry standards or solutions. See background information for more details.
 
 FIPS documents are available online through the FIPS home page: <http://www.nist.gov/itl/fips.cfm>
 
@@ -197,7 +197,7 @@ FIPS documents are available online through the FIPS home page: <http://www.nist
 A process that allows for the conveyance of identity and authentication information across a set of networked systems.
 
 #### Federation Assurance Level (FAL)
-A category describing the assertion protocol used by the federation to communicate authentication and attribute information (if applicable) to a RP.
+A category describing the assertion protocol used by the federation to communicate authentication and attribute information (if applicable) to an RP.
 
 #### Federation Proxy
 A component that acts as a logical RP to a set of IdPs and a logical IdP to a set of RPs, bridging the two systems with a single component. These are sometimes referred to as "brokers".
@@ -228,7 +228,7 @@ The process by which a CSP collects, validates, and verifies information about a
 The party that manages the subscriber’s primary authentication credentials and issues assertions derived from those credentials. This is commonly the CSP as discussed within this document suite.
 
 #### Issuing Source
-An authority responsible for the generation of data, digital evidence (such as assertions), or physical documents that can be used as identity evidence.
+An authority responsible for the generation of data, digital evidence (such as assertions), or physical documents that can be used as identity evidence. 
 
 #### Kerberos
 A widely used authentication protocol developed at MIT. In "classic" Kerberos, users share a secret password with a Key Distribution Center (KDC). The user, Alice, who wishes to communicate with another user, Bob, authenticates to the KDC and is furnished a "ticket" by the KDC to use to authenticate with Bob.
@@ -255,10 +255,13 @@ A characteristic of an authentication system or an authenticator that requires m
 
 The three authentication factors are something you know, something you have, and something you are.
 
-#### Multi-factor Authentication (MFA)
-An authentication system or an authenticator that requires more than one distinct [authentication factor](#af) for successful authentication. Multi-factor authentication can be performed using a single authenticator that provides more than one factor or by a combination of authenticators that provide different factors.
+#### <a name=”mfa-definition”></a>Multi-factor Authentication (MFA)
+An authentication system that requires more than one distinct [authentication factor](#af) for successful authentication. Multi-factor authentication can be performed using a multi-factor authenticator or by a combination of authenticators that provide different factors.
 
-The three authentication factors are something you know, something you have, and something you are.
+The three authentication factors are *something you know*, *something you have*, and *something you are*.
+
+#### Multi-factor Authenticator
+An authenticator that provides more than one distinct authentication factor, such as a cryptographic authentication device with an integrated biometric sensor that is required to activate the device.
 
 #### Network
 An open communications medium, typically the Internet, that is used to transport messages between the claimant and other parties. Unless otherwise stated, no assumptions are made about the security of the network; it is assumed to be open and subject to active (e.g., impersonation, man-in-the-middle, session hijacking) and passive (e.g., eavesdropping) attack at any point between the parties (e.g., claimant, verifier, CSP, RP).
@@ -372,6 +375,9 @@ An attack in which the attacker is able to replay previously captured messages (
 #### Replay Resistance
 The property of an authentication process to resist replay attacks, typically by use of an authenticator output that is valid only for a specific authentication.
 
+#### Restricted
+An authenticator type, class, or instantiation having additional risk of false acceptance associated with its use that is therefore subject to additional requirements.
+
 #### Risk Assessment
 The process of identifying, estimating, and prioritizing risks to organizational operations (including mission, functions, image, or reputation), organizational assets, individuals, and other organizations, resulting from the operation of a system. It is part of risk management, incorporates threat and vulnerability analyses, and considers mitigations provided by security controls planned or in place. Synonymous with risk analysis.
 
@@ -454,11 +460,11 @@ Overwrite a memory location with data consisting entirely of bits with the value
 #### Zero-knowledge Password Protocol
 A password based authentication protocol that allows a claimant to authenticate to a verifier without revealing the password to the verifier. Examples of such protocols are EKE, SPEKE and SRP.
 
-### A.2. Acronyms
+### A.2 Abbreviations
 
-Selected acronyms in this paper are defined below.
+Selected abbreviations in these guidelines are defined below.
 
-|Acronym|Term|
+|Abbreviation|Term|
 |:-----|:---------|
 |ABAC|Attribute Based Access Control|
 |AS|Authentication Server|
@@ -515,4 +521,4 @@ Selected acronyms in this paper are defined below.
 |TGS|Ticket Granting Server|
 |TGT|Ticket Granting Ticket|
 |TLS|Transport Layer Security|
-|Voice-over-IP|VOIP|
+|VOIP|Voice-over-IP|
