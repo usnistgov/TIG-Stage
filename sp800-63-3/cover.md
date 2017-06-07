@@ -26,7 +26,7 @@ https://doi.org/10.6028/NIST.SP.800-63-3
 # Digital Identity Guidelines
 
 
-<table class="authors">
+<table class="authors" markdown="0">
 <tr>
   <td>Paul</td>
   <td>Mike</td>
