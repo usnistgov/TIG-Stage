@@ -45,7 +45,7 @@ https://doi.org/10.6028/NIST.SP.800-63b
 
 ### Authentication and Lifecycle Management
 
-<table cellspacing="0" cellpadding="0">
+<table frame="void" rules="none">
 <tbody class="authors">
   <tr>
     <td>Paul A. Grassi  
