@@ -157,3 +157,7 @@ table>tbody+tbody{
 table table{
   background-color:#fff
 }
+
+authors.table{
+  style="border-collapse:collapse;border-spacing:0;width:100%;display:table;border:0;border-color:#FFFFFF"
+}
