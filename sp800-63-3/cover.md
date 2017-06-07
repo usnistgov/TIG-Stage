@@ -25,14 +25,14 @@ https://doi.org/10.6028/NIST.SP.800-63-3
 
 # Digital Identity Guidelines
 
-<div class="authors text-left">
-<table>
+
+<table class="authors">
 <tr>
   <td>Paul</td>
   <td>Mike</td>
 </tr>
 </table>
-</div>
+
 
 
 Paul A. Grassi  
