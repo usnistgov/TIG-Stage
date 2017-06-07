@@ -158,7 +158,7 @@ table table{
   background-color:#fff
 }
 
-authors.table{
+.authors.table{
   border-collapse:collapse;
   border-spacing:0;
   border:0;
