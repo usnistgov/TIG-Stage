@@ -158,6 +158,6 @@ table table{
   background-color:#fff
 }
 
-table.authors{
+td{
   border: 5px solid red;
 }
