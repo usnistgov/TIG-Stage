@@ -25,14 +25,14 @@ https://doi.org/10.6028/NIST.SP.800-63-3
 
 # Digital Identity Guidelines
 
-<div class="text-right" markdown="0">
-<table class="w3-table">
+
+<table style="border-collapse:collapse;border-spacing:0;width:100%;display:table">
 <tr>
   <td>Paul</td>
   <td>Mike</td>
 </tr>
 </table>
-</div>
+
 
 Paul A. Grassi  
 Michael E. Garcia  
