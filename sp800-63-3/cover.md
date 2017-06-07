@@ -26,7 +26,7 @@ https://doi.org/10.6028/NIST.SP.800-63-3
 # Digital Identity Guidelines
 
 
-<table style="border-collapse:collapse;border-spacing:0;width:100%;display:table">
+<table style="border-collapse:collapse;border-spacing:0;width:100%;display:table;border:0">
 <tr>
   <td>Paul</td>
   <td>Mike</td>
