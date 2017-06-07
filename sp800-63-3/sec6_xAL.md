@@ -2,7 +2,7 @@
 
 <div class="breaker"></div>
 
-## 6. <a name="CYOA"></a>Selecting Assurance Levels
+## 6 <a name="CYOA"></a>Selecting Assurance Levels
 
 _This section is normative._  
 
@@ -12,7 +12,7 @@ First, compare the risk assessment impact profile to the impact profiles associa
 
 <a name="63Sec6-Table6-1"></a>
 <div class="text-center" markdown="1">
-**Table 6-1. Maximum Potential Impacts for Each Assurance Level**
+**Table 6-1 Maximum Potential Impacts for Each Assurance Level**
 </div>
 
 <table>
@@ -52,8 +52,7 @@ First, compare the risk assessment impact profile to the impact profiles associa
     <td>N/A</td>
     <td>Low/Mod</td>
     <td>High</td>
-  </tr>
- 
+  </tr> 
     <td>Personal Safety</td>
     <td>N/A</td>
     <td>Low</td>
@@ -70,13 +69,13 @@ First, compare the risk assessment impact profile to the impact profiles associa
  
 </table>
 
-In analyzing risks, the agency SHALL consider all of the expected direct and indirect results of an authentication failure, including the possibility that there will be more than one failure, or harms to more than one person or organization. The definitions of potential impacts contain some relative terms, like "serious" or "minor", whose meaning will depend on context. The agency SHOULD consider the context and the nature of the persons or entities affected to decide the relative significance of these harms. Over time, the meaning of these terms will become more definite as agencies gain practical experience with these issues. The analysis of harms to agency programs or other public interests depends strongly on the context; the agency SHOULD consider these issues with care.
+In analyzing risks, the agency SHALL consider all of the expected direct and indirect results of an authentication failure, including the possibility that there will be more than one failure, or harms to more than one person or organization. The definitions of potential impacts contain some relative terms, like "serious" or "minor," whose meaning will depend on context. The agency SHOULD consider the context and the nature of the persons or entities affected to decide the relative significance of these harms. Over time, the meaning of these terms will become more definite as agencies gain practical experience with these issues. The analysis of harms to agency programs or other public interests depends strongly on the context; the agency SHOULD consider these issues with care.
 
-It is possible that the assurance levels may differ across IAL, AAL, and FAL. For example, suppose an agency establishes a "health tracker" application in which user submit personal information in the form of personal health information (PHI). In line with the terms of [EO 13681](#EO13681) requiring "...that all agencies making personal data accessible to citizens through digital applications require the use of multiple factors of authentication...", the agency is required to implement MFA at AAL2 or AAL3. 
+It is possible that the assurance levels may differ across IAL, AAL, and FAL. For example, suppose an agency establishes a "health tracker" application in which user submit personal information in the form of personal health information (PHI). In line with the terms of [EO 13681](#EO13681) requiring "...that all agencies making personal data accessible to citizens through digital applications require the use of multiple factors of authentication...," the agency is required to implement MFA at AAL2 or AAL3. 
 
 EO 13681 also requires agencies to employ "...an effective identity proofing process, as appropriate" when personal information is released. This does not mean that proofing at IAL2 or IAL3 (to match the required AAL) is necessary. In the above example, there may be no need for the agency system to know the actual identify of the user. In this case, an "effective proofing process" would be to not proof at all, therefore the agency would select IAL1. This allows the user of the health tracker system to be pseudonymous.
 
-Despite the user being pseudonymous, the agency should still protect the application with AAL2 or AAL3 because a malicous actor could gain access to the users PHI by compromising the account. If it is a targeted attack, the malicious actor may know the users identity, creating the same negative impact to the user as if the agency has identity proofed.
+Despite the user being pseudonymous, the agency should still protect the application with AAL2 or AAL3 because a malicous actor could gain access to the user's PHI by compromising the account. If it is a targeted attack, the malicious actor may know the user's identity, creating the same negative impact to the user as if the agency has identity proofed.
 
 > Note: An agency can accept a higher assurance level than those required in the table above. For example, in a federated transaction, an agency can accept an IAL3 identity if their application is assessed at IAL2. The same holds true for authenticators; stronger authenticators can be used at RPs that have lower authenticator requirements. However, RPs will have to ensure that this only occurs in federated scenarios with appropriate privacy protections by the CSP such that only attributes that have been requested by the RP and authorized by the subscriber are provided to the RP and that excessive personal information does not leak from the credential or an assertion. See [privacy requirements](./sp800-63c.html#privacy) in SP 800-63C for more details.
 
@@ -84,7 +83,7 @@ Despite the user being pseudonymous, the agency should still protect the applica
 
 > Note: The upshot of potentially having a different IAL, AAL, and FAL within a single application stems from the fact that this document no longer supports the notion of an overall LOA. The "low watermark" approach to determining LOA no longer applies. An application with IAL1 and AAL2 should not be considered any less secure or privacy enhancing than an application with IAL2 and AAL2. The only difference between these applications is the amount of proofing required, which may not impact the security and privacy of each application. That said, if an agency incorrectly determines the xAL, security and privacy could very well be impacted.
 
-#### <a name="IAL_CYOA"></a> 6.1. Selecting IAL
+#### <a name="IAL_CYOA"></a> 6.1 Selecting IAL
 
 The IAL decision tree in [Figure 6-1](#63Sec6-Figure1) combines the results from the risk assessment with additional considerations related to identity proofing services to allow agencies to select the most appropriate identity proofing requirements for their digital service offering. 
 
@@ -92,9 +91,9 @@ The IAL selection does not mean the digital service provider will need to perfor
 
 <a name="63Sec6-Figure1"></a>
 <div class="text-center" markdown="1">
-<img src="sp800-63-3/media/IAL_CYOA.png" alt="IAL Choose Your Own" style="width:1000px;height:1195px;;min-width: 1000px;min-height: 1195px;"/>
+<img src="sp800-63-3/media/IAL_CYOA.png" alt="IAL Choose Your Own" style="width:1000px;height:1093px;;min-width: 1000px;min-height:1093px;"/>
 
-**Figure 6-1. Selecting IAL**
+**Figure 6-1 Selecting IAL**
 </div>
 
 
@@ -141,7 +140,7 @@ The IAL selection does not mean the digital service provider will need to perfor
 
 > Note: Agencies should also consider their constituents' demographics when selecting the most appropriate proofing process. While not a function of IAL selection, certain proofing process(es) may be more appropriate for some demographics than others. Agencies will benefit as this type of analysis ensures the greatest opportunity for their constituents to be proofed successfully.
  
-#### <a name="AAL_CYOA"></a> 6.2. Selecting AAL
+#### <a name="AAL_CYOA"></a> 6.2 Selecting AAL
 
 The AAL decision tree in [Figure 6-2](#63Sec6-Figure2) combines the results from the risk assessment with additional considerations related to authentication to allow agencies to select the most appropriate authentication requirements  for their digital service offering. 
 
@@ -149,9 +148,9 @@ The AAL selection does not mean the digital service provider will need to issue 
 
 <a name="63Sec6-Figure2"></a>
 <div class="text-center" markdown="1">
-<img src="sp800-63-3/media/AAL_CYOA.png" alt="AAL Choose Your Own" style="width:1000px;height:1195px;;min-width: 1000px;min-height: 1195px;"/>
+<img src="sp800-63-3/media/AAL_CYOA.png" alt="AAL Choose Your Own" style="width:1000px;height:958px;;min-width: 1000px;min-height:958px;"/>
 
-**Figure 6-2. Selecting AAL**
+**Figure 6-2 Selecting AAL**
 </div>
 
 <div class="text-left" markdown="1">
@@ -174,11 +173,11 @@ The AAL selection does not mean the digital service provider will need to issue 
   </table>
 </div>
 
-#### <a name="FAL_CYOA"></a> 6.3. Selecting FAL
+#### <a name="FAL_CYOA"></a> 6.3 Selecting FAL
 
-All FALs require assertions to have a baseline of protections, including signatures, expirations, audience restrictions, and others enumerated in [[SP 800-63C]](sp800-63c.html#assertions). When taken together, these measures make it so that assertions cannot be created or modified by an unauthorized party, and that a RP will not accept an assertion created for a different system. 
+All FALs require assertions to have a baseline of protections, including signatures, expirations, audience restrictions, and others enumerated in [[SP 800-63C]](sp800-63c.html#assertions). When taken together, these measures make it so that assertions cannot be created or modified by an unauthorized party, and that an RP will not accept an assertion created for a different system. 
 
-RPs should use a back-channel presentation mechanism as described in [SP 800-63C Section 7.1](sp800-63c.html#back-channel) where possible, as such mechanisms allow for greater privacy and security. Since the subscriber handles only an assertion reference and not the assertion itself, there is less chance of leakage of attributes or other sensitive information found in the assertion to the subscriber's browser or other programs. As the RP directly presents the assertion reference to the IdP, the IdP can often take steps to identify and authenticate the RP during this step. Further, as the RP fetches the assertion directly from the IdP over an authenticated protected channel, there are fewer opportunities for an attacker to inject an assertion into a RP.
+RPs should use a back-channel presentation mechanism as described in [SP 800-63C Section 7.1](sp800-63c.html#back-channel) where possible, as such mechanisms allow for greater privacy and security. Since the subscriber handles only an assertion reference and not the assertion itself, there is less chance of leakage of attributes or other sensitive information found in the assertion to the subscriber's browser or other programs. As the RP directly presents the assertion reference to the IdP, the IdP can often take steps to identify and authenticate the RP during this step. Further, as the RP fetches the assertion directly from the IdP over an authenticated protected channel, there are fewer opportunities for an attacker to inject an assertion into an RP.
 
 FAL2 and higher require the assertion itself be encrypted such that the intended RP is the only party that can decrypt it. This method improves the enforcement of audience restriction at RPs (since an unintended RP won't be able to decrypt an assertion) and increases privacy protection by protecting the assertion message itself beyond having it be passed along authenticated protected channels. RPs that allow front-channel assertion presentation should require at least FAL2 to protect the content of the assertion, since the assertion can be seen by the subscriber and handled by the subscriber's browser.
 
@@ -186,7 +185,7 @@ FAL3 further requires the subscriber prove possession of a key in addition to th
 
 Increasing the FAL increases the complexity of the deployment and management of a federation system, as RP keys need to be managed at FAL2 and FAL3, and subscriber keys need to be managed at FAL3. Therefore, RPs should add advanced functionality where it is feasible and warranted for the application.
 
-### 6.4. Combining xALs 
+### 6.4 Combining xALs 
 
 This guideline introduces a model where individual xALs can be selected without requiring parity to each other. While options exist to select varying xALs for a system, in many instances the same level will be chosen for all xALs.
 
@@ -196,7 +195,7 @@ The ability to combine varying xALs offers significant flexibility to agencies, 
 
 <div class="text-center" markdown="1">
 
-**Table 6-2. Acceptable Combinations of IAL and AAL**
+**Table 6-2 Acceptable Combinations of IAL and AAL**
 
 </div>
 
