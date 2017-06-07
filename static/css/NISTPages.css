@@ -126,17 +126,19 @@ ul.audiences li {
   padding: 0;
 }
 
+.authors{
+  border: none;
+  border-style: none;
+
+}
+
 /* Style default/base tables since we are using markdown */
 table{
   width:100%;
   margin-bottom:20px
 }
 
-.authors{
-  border:0;
-  border-style: 0;
 
-}
 
 table>thead>tr>th,table>tbody>tr>th,table>tfoot>tr>th,table>thead>tr>td,table>tbody>tr>td,table>tfoot>tr>td{
   padding:8px;
