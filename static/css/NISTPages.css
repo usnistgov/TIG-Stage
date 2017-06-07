@@ -159,9 +159,8 @@ table table{
 }
 
 authors.table{
-  style="border-collapse:collapse;border-spacing:0;width:100%;display:table;border:0;border-color:#FFFFFF"
-}
-
-table.authors{
-  style="border-collapse:collapse;border-spacing:0;width:100%;display:table;border:0;border-color:#FFFFFF"
+  border-collapse:collapse;
+  border-spacing:0;
+  border:0;
+  border-color:#FFFFFF"
 }
