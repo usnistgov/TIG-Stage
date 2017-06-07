@@ -48,7 +48,7 @@ https://doi.org/10.6028/NIST.SP.800-63b
 </div>
 
 <div markdown="1">
-<table>
+<table border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td>Paul A. Grassi  
     *Applied Cybersecurity Division  
