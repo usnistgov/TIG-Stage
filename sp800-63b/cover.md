@@ -47,7 +47,7 @@ https://doi.org/10.6028/NIST.SP.800-63b
 
 </div>
 
-<div class="authors" markdown="0">
+<div markdown="1">
 <table>
   <tr>
     <td>Paul A. Grassi  
