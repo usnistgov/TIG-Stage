@@ -37,10 +37,10 @@ The following table states which sections of the document are normative and whic
 
 When a subject is identity proofed, the expected steps are:  
 
-1. Resolve a claimed identity to a single, unique identity within the context of the population of users the CSP serves.
-2. Validate that all supplied evidence is correct and genuine (e.g., not counterfeit or misappropriated).
-3. Validate that the claimed identity exists in the real world.
-4. Verify that the claimed identity is associated with the real-life person supplying the identity evidence.
+* Resolve a claimed identity to a single, unique identity within the context of the population of users the CSP serves.
+* Validate that all supplied evidence is correct and genuine (e.g., not counterfeit or misappropriated).
+* Validate that the claimed identity exists in the real world.
+* Verify that the claimed identity is associated with the real person supplying the identity evidence.
 
 ## 2.2. Identity Assurance Levels
 
