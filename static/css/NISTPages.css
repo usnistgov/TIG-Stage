@@ -126,10 +126,10 @@ ul.audiences li {
   padding: 0;
 }
 
-.authors{
+.authors {
+  border-collapse: collapse;
   border: none;
   border-style: none;
-
 }
 
 /* Style default/base tables since we are using markdown */
