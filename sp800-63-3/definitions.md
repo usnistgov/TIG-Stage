@@ -1,6 +1,6 @@
 <a name="def-and-acr"></a>
 
-## Appendix A: Definitions and Acronyms
+## Appendix A&mdash;Definitions and Acronyms
 
 *This section is normative.*
 
@@ -228,7 +228,7 @@ The process by which a CSP collects, validates, and verifies information about a
 The party that manages the subscriber’s primary authentication credentials and issues assertions derived from those credentials. This is commonly the CSP as discussed within this document suite.
 
 #### Issuing Source
-An authority responsible for the generation of data, digital evidence (such as assertions), or physical documents that can be used as identity evidence. 
+An authority responsible for the generation of data, digital evidence (such as assertions), or physical documents that can be used as identity evidence.
 
 #### Kerberos
 A widely used authentication protocol developed at MIT. In "classic" Kerberos, users share a secret password with a Key Distribution Center (KDC). The user, Alice, who wishes to communicate with another user, Bob, authenticates to the KDC and is furnished a "ticket" by the KDC to use to authenticate with Bob.
