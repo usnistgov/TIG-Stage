@@ -45,48 +45,68 @@ https://doi.org/10.6028/NIST.SP.800-63b
 
 ### Authentication and Lifecycle Management
 
-Paul A. Grassi  
-*Applied Cybersecurity Division  
-Information Technology Laboratory*  
+<table border="0">
+  <tr>
+    <td>Paul A. Grassi  
+    *Applied Cybersecurity Division  
+    Information Technology Laboratory*  </td>
+    <td>James L. Fenton  
+    *Altmode Networks  
+    Los Altos, CA*  </td>
+    <td>Elaine M. Newton  
+    *Office of the Director  
+    Information Technology Laboratory*  </td>
+  </tr>
+  <tr>
+    <td>Ray A. Perlner  
+    Andrew R. Regenscheid  
+    *Computer Security Division  
+    Information Technology Laboratory*</td>
+    <td>William E. Burr  
+    *Dakota Consulting, Inc.  
+    Silver Spring, MD*</td>
+    <td>Justin P. Richer  
+    *Bespoke Engineering  
+    Billerica, MA*  </td>
+  </tr>
+  <tr>
+    <td colspan="2">Privacy Authors</td>
+    <td colspan="1">Usability Authors</td>
+  </tr>
+  <tr>
+    <td>
+    Naomi B. Lefkovitz  
+    *Applied Cybersecurity Division  
+    Information Technology Laboratory* </td>
+    <td>Jamie M. Danker  
+    *National Protection and Programs Directorate  
+    Department of Homeland Security*  </td>
+    <td>
+    Yee-Yin Choong  
+    Kristen K. Greene  
+    Mary F. Theofanos  
+    *Information Access Division  
+    Information Technology Laboratory*  </td>
+  </tr>
+</table>
 
-James L. Fenton  
-*Altmode Networks  
-Los Altos, CA*  
 
-Elaine M. Newton  
-*Office of the Director  
-Information Technology Laboratory*  
 
-Ray A. Perlner  
-Andrew R. Regenscheid  
-*Computer Security Division  
-Information Technology Laboratory*
 
-William E. Burr  
-*Dakota Consulting, Inc.  
-Silver Spring, MD*
 
-Justin P. Richer  
-*Bespoke Engineering  
-Billerica, MA*  
 
-Privacy Authors:  
 
-Naomi B. Lefkovitz  
-*Applied Cybersecurity Division  
-Information Technology Laboratory*    
 
-Jamie M. Danker  
-*National Protection and Programs Directorate  
-Department of Homeland Security*    
 
-Usability Authors:    
 
-Yee-Yin Choong  
-Kristen K. Greene  
-Mary F. Theofanos  
-*Information Access Division  
-Information Technology Laboratory*  
+
+
+
+
+
+
+
+
 
 {::comment}
 
