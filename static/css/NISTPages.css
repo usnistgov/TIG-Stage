@@ -131,7 +131,7 @@ ul.audiences li {
 /* Style default/base tables since we are using markdown */
 table{
   width:100%;
-  margin-bottom:20px
+  margin-bottom:20px;
   border-collapse: collapse;
   border: none;
   border-style: none;
