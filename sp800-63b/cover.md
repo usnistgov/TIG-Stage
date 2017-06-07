@@ -45,6 +45,8 @@ https://doi.org/10.6028/NIST.SP.800-63b
 
 ### Authentication and Lifecycle Management
 
+</div>
+
 <div class="authors" markdown="0">
 <table>
   <tr>
@@ -92,23 +94,7 @@ https://doi.org/10.6028/NIST.SP.800-63b
 </table>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="breaker text-right" markdown="1">
 
 {::comment}
 
