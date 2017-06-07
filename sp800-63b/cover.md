@@ -45,7 +45,8 @@ https://doi.org/10.6028/NIST.SP.800-63b
 
 ### Authentication and Lifecycle Management
 
-<table border-collapse="collapse">
+<table>
+<tbody class="authors">
   <tr>
     <td>Paul A. Grassi  
     *Applied Cybersecurity Division  
@@ -88,6 +89,7 @@ https://doi.org/10.6028/NIST.SP.800-63b
     *Information Access Division  
     Information Technology Laboratory*  </td>
   </tr>
+  </tbody>
 </table>
 
 
