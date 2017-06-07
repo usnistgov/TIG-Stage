@@ -126,7 +126,7 @@ ul.audiences li {
   padding: 0;
 }
 
-.authors {
+.authors>table>tr>td {
   border-collapse: collapse;
   border: none;
   border-style: none;
