@@ -45,7 +45,7 @@ https://doi.org/10.6028/NIST.SP.800-63b
 
 ### Authentication and Lifecycle Management
 
-<table border="0">
+<table border=0>
   <tr>
     <td>Paul A. Grassi  
     *Applied Cybersecurity Division  
