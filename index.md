@@ -14,16 +14,21 @@ Visit <https://pages.nist.gov/800-63-3> for the latest draft.  <br><br>
 <section class="home home-about" markdown="1">
 <div class="section-container" markdown="1">
 
+<table class="authors text-center">
+<table class="authors">
+  <tr><td colspan="3"><a href="sp800-63-3.html"><img src="assets/63.png" alt="SP 800-63-3" width="150px" height="150px"></a></td></tr>
+  <tr><td colspan="3"><a href="sp800-63-3.html">SP 800-63-3</a></td></tr>
+  <tr><td colspan="3"><h6>Digital Identity Guidelines</h6><td></tr>
+  <tr>
+    <td><<a href="sp800-63a.html"><img src="assets/63a.png" alt="SP 800-63A" width="150px" height="150px"></a></td>
+    <td><<a href="sp800-63b.html"><img src="assets/63b.png" alt="SP 800-63B" width="150px" height="150px"></a></td>
+    <td><<a href="sp800-63c.html"><img src="assets/63c.png" alt="SP 800-63C" width="150px" height="150px"></a></td>
+</table>
+
+
+<!--
 <div class="text-center" markdown="1">
-<ul class="audiences">
-<li>
-  <div>
-    <a href="sp800-63-3.html"><img src="assets/63.png" alt="SP 800-63-3" width="150px" height="150px"></a>
-  </div>
-  <h3><a href="sp800-63-3.html">SP 800-63-3</a></h3>
-  <h6>Digital Identity Guidelines</h6>
-</li>
-</ul>
+
 </div>
 </div>
 
@@ -32,27 +37,27 @@ Visit <https://pages.nist.gov/800-63-3> for the latest draft.  <br><br>
 <ul class="audiences">
 <li>
   <div>
-    <a href="sp800-63a.html"><img src="assets/63a.png" alt="SP 800-63A" width="150px" height="150px"></a>
+
   </div>
   <h3><a href="sp800-63a.html">SP 800-63A</a></h3>
   <h6>Enrollment & Identity Proofing</h6>
 </li>
 <li>
   <div>
-    <a href="sp800-63b.html"><img src="assets/63b.png" alt="SP 800-63B" width="150px" height="150px"></a>
+
   </div>
   <h3><a href="sp800-63b.html">SP 800-63B</a></h3>
   <h6>Authentication & Lifecycle Management</h6>
 </li>
 <li>
   <div>
-    <a href="sp800-63c.html"><img src="assets/63c.png" alt="SP 800-63C" width="150px" height="150px"></a>
+
   </div>
   <h3><a href="sp800-63c.html">SP 800-63C</a></h3>
   <h6>Federation & Assertions</h6>
 </li>
 </ul>
-</div>
+</div>-->
 </div>
 
 </section>
