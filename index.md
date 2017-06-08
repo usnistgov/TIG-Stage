@@ -24,7 +24,8 @@ Visit <https://pages.nist.gov/800-63-3> for the latest draft.  <br><br>
   <h6>Digital Identity Guidelines</h6>
 </li>
 </ul>
-<br><br>
+</div>
+<div class="section-content" markdown="1">
 <ul class="audiences">
 <li>
   <div>
