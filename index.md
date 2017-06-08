@@ -13,16 +13,35 @@ Visit <https://pages.nist.gov/800-63-3> for the latest draft.  <br><br>
 </section>
 <section class="home home-about" markdown="1">
 <div class="section-container" markdown="1">
-<div class="index-section-content" markdown="1">
-
-  <a href="sp800-63-3.html"><img src="assets/63.png" style="display:block; margin: 0 auto; width: 30%;  margin-bottom: 2em;"/></a>
-
-  <a href="sp800-63a.html"><img src="assets/63a.png" style="float: left; width: 30%; margin-right: 2%; margin-bottom: 0.5em;"/></a>
-
-  <a href="sp800-63b.html"><img src="assets/63b.png" style="float: left; width: 30%; margin-right: 2%; margin-bottom: 0.5em;"/></a>
-
-  <a href="sp800-63c.html"><img src="assets/63c.png" style="float: left; width: 30%; margin-right: 2%; margin-bottom: 0.5em;"/></a>
-
-</div>
+<ul class="audiences">
+<li>
+  <div>
+    <a href="sp800-63-3.html"><img src="assets/63.png" alt="SP 800-63-3" width="150px" height="150px"></a>
+  </div>
+  <h3><a href="sp800-63-3.html">SP 800-63-3</a></h3>
+  <h6>Digital Identity Guidelines</h6>
+</li>
+<li>
+  <div>
+    <a href="sp800-63a.html"><img src="assets/63a.png" alt="SP 800-63A" width="150px" height="150px"></a>
+  </div>
+  <h3><a href="sp800-63a.html">SP 800-63A</a></h3>
+  <h6>Enrollment & Identity Proofing</h6>
+</li>
+<li>
+  <div>
+    <a href="sp800-63b.html"><img src="assets/63b.png" alt="SP 800-63B" width="150px" height="150px"></a>
+  </div>
+  <h3><a href="sp800-63b.html">SP 800-63B</a></h3>
+  <h6>Authentication & Lifecycle Management</h6>
+</li>
+<li>
+  <div>
+    <a href="sp800-63c.html"><img src="assets/63c.png" alt="SP 800-63C" width="150px" height="150px"></a>
+  </div>
+  <h3><a href="sp800-63c.html">SP 800-63C</a></h3>
+  <h6>Federation & Assertions</h6>
+</li>
+</ul>
 </div>
 </section>
