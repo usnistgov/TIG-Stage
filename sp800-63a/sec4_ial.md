@@ -30,7 +30,7 @@ This document also provides requirements for CSPs collecting additional informat
 
 The following provides a sample of how a CSP and an applicant interact during the identity proofing process:
 
-<div class="text-left" markdown="1">
+<div class="text-left" markdown="0">
 
 <ol type="1" start="1">
 	<li><strong>Resolution</strong></li>
@@ -64,7 +64,7 @@ The following provides a sample of how a CSP and an applicant interact during th
 
 The following requirements apply to any CSP performing identity proofing at IAL2 or IAL3.
 
-<div class="text-left" markdown="0">
+<div class="text-left" markdown="1">
 	<ol type="1" start="1">
 		<li>Identity proofing SHALL NOT be performed to determine suitability or entitlement to gain access to services or benefits.</li>
 		<li><a name="4.2-r2"></a>Collection of PII SHALL be limited to the minimum necessary to validate the existence of the claimed identity and associate the claimed identity with the applicant providing identity evidence for appropriate identity resolution, validation, and verification. This MAY include attributes that correlate identity evidence to authoritative sources and to provide RPs with attributes used to make authorization decisions.</li>
