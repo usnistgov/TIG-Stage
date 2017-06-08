@@ -13,6 +13,8 @@ Visit <https://pages.nist.gov/800-63-3> for the latest draft.  <br><br>
 </section>
 <section class="home home-about" markdown="1">
 <div class="section-container" markdown="1">
+
+<div class="text-center" markdown="1">
 <ul class="audiences">
 <li>
   <div>
@@ -21,6 +23,11 @@ Visit <https://pages.nist.gov/800-63-3> for the latest draft.  <br><br>
   <h3><a href="sp800-63-3.html">SP 800-63-3</a></h3>
   <h6>Digital Identity Guidelines</h6>
 </li>
+</ul>
+</div>
+
+<div class="text-center" markdown="1">
+<ul class="audiences">
 <li>
   <div>
     <a href="sp800-63a.html"><img src="assets/63a.png" alt="SP 800-63A" width="150px" height="150px"></a>
@@ -43,5 +50,6 @@ Visit <https://pages.nist.gov/800-63-3> for the latest draft.  <br><br>
   <h6>Federation & Assertions</h6>
 </li>
 </ul>
+</div>
 </div>
 </section>
