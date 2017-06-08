@@ -20,9 +20,20 @@ Visit <https://pages.nist.gov/800-63-3> for the latest draft.  <br><br>
   <figcaption>800-63-3</figcaption>
 </figure>
 
-<a href="sp800-63a.html"><img src="assets/63a.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"/></a>
-<a href="sp800-63b.html"><img src="assets/63b.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"/></a>
+<figure>
+  <a href="sp800-63a.html"><img src="assets/63a.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"/></a>
+  <figcaption>800-63A</figcaption>
+</figure>
+
+<figure>
+  <a href="sp800-63b.html"><img src="assets/63b.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"/></a>
+  <figcaption>800-63B</figcaption>
+</figure>
+
+<figure>
   <a href="sp800-63c.html"><img src="assets/63c.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"/></a>
+  <figcaption>800-63C</figcaption>
+</figure>
 </div>
 </div>
 </section>
