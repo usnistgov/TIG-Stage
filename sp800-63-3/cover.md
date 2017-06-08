@@ -27,7 +27,7 @@ https://doi.org/10.6028/NIST.SP.800-63-3
 
 <table class="authors">
   <tr>
-    <td>Paul A. Grassi</td>
+    <td>Paul A. Grassi<br>Applied Cybersecurity Division</td>
     <td>James L. Fenton</td>
   </tr>
 </table>
