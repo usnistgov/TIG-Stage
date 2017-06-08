@@ -78,8 +78,6 @@ a.nist-links-button {
 
 /* Custom styling */
 
-
-
 section.home {
   text-align: left;
 }
@@ -129,10 +127,8 @@ ul.audiences li {
 /* Style default/base tables since we are using markdown */
 table{
   width:100%;
-  margin-bottom:20px;
+  margin-bottom:20px
 }
-
-
 
 table>thead>tr>th,table>tbody>tr>th,table>tfoot>tr>th,table>thead>tr>td,table>tbody>tr>td,table>tfoot>tr>td{
   padding:8px;
@@ -156,12 +152,4 @@ table>tbody+tbody{
 
 table table{
   background-color:#fff
-}
-
-table.authors{
-  border:hidden;
-}
-
-table.authors td{
-  border:hidden;
 }
