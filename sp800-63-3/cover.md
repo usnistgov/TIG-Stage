@@ -25,14 +25,15 @@ https://doi.org/10.6028/NIST.SP.800-63-3
 
 # Digital Identity Guidelines
 
-Paul A. Grassi  
-Michael E. Garcia  
-*Applied Cybersecurity Division  
-Information Technology Laboratory*
+<table class="authors">
+<tr>
+  <td>Paul A. Grassi<br>Michael E. Garcia<br><i>Applied Cybersecurity Division<br><i>Information Technology Laboratory</i></td>
+  <td>James L. Fenton<br><i>Altmode Networks</i><br><i>Los Altos, CA*<i></td>
+</tr>
+</table>
 
-James L. Fenton  
-*Altmode Networks  
-Los Altos, CA*
+
+
 
 This publication is available free of charge from:  
 https://doi.org/10.6028/NIST.SP.800-63-3  
