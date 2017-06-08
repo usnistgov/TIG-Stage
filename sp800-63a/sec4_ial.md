@@ -30,7 +30,7 @@ This document also provides requirements for CSPs collecting additional informat
 
 The following provides a sample of how a CSP and an applicant interact during the identity proofing process:
 
-<div class="text-left" markdown="0">
+<div class="text-left" markdown="1">
 
 <ol type="1" start="1">
 	<li><strong>Resolution</strong></li>
@@ -54,7 +54,7 @@ The following provides a sample of how a CSP and an applicant interact during th
 		</ol>
 </ol>
 
-</div>	
+</div>
 
 > Note: The identity proofing process can be delivered by multiple service providers. It is possible, but not expected, that a single organization, process, technique, or technology will fulfill these process steps.
 
@@ -169,7 +169,7 @@ The CSP SHALL support in-person or remote identity proofing. The CSP SHOULD offe
 		</ol>
 </ol>
 
-</div>	
+</div>
 
 > Note: Postal address is the preferred method of sending any communications, including enrollment code and notifications, with the applicant. However, these guidelines support any confirmed address of record, whether physical or digital.
 
