@@ -25,7 +25,9 @@ Visit <https://pages.nist.gov/800-63-3> for the latest draft.  <br><br>
 </li>
 </ul>
 </div>
+</div>
 
+<div class="section-container" markdown="1">
 <div class="text-center" markdown="1">
 <ul class="audiences">
 <li>
@@ -50,6 +52,7 @@ Visit <https://pages.nist.gov/800-63-3> for the latest draft.  <br><br>
   <h6>Federation & Assertions</h6>
 </li>
 </ul>
+</div>
 </div>
 </div>
 </section>
