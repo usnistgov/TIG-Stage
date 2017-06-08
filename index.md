@@ -18,12 +18,13 @@ Visit <https://pages.nist.gov/800-63-3> for the latest draft.  <br><br>
   <tr>
   <td colspan="3"><a href="sp800-63-3.html"><img src="assets/63.png" alt="SP 800-63-3" width="150px" height="150px"></a>
   </td></tr>
-  <tr><td colspan="3"><a href="sp800-63-3.html">SP 800-63-3</a></td></tr>
-  <tr><td colspan="3"><h6>Digital Identity Guidelines</h6><td></tr>
+  <tr><td colspan="3"><a href="sp800-63-3.html">SP 800-63-3<br><h6>Digital Identity Guidelines</h6</a></td></tr>
+
   <tr>
     <td><<a href="sp800-63a.html"><img src="assets/63a.png" alt="SP 800-63A" width="150px" height="150px"></a></td>
     <td><<a href="sp800-63b.html"><img src="assets/63b.png" alt="SP 800-63B" width="150px" height="150px"></a></td>
     <td><<a href="sp800-63c.html"><img src="assets/63c.png" alt="SP 800-63C" width="150px" height="150px"></a></td>
+  </tr>
 </table>
 
 
