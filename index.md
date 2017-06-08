@@ -13,7 +13,7 @@ Visit <https://pages.nist.gov/800-63-3> for the latest draft.  <br><br>
 </section>
 <section class="home home-about" markdown="1">
 <div class="section-container" markdown="1">
-<div class="section-content" markdown="1">
+<div  markdown="1" style="text-align:center">
 <ul class="audiences">
 <li>
   <div>
@@ -25,7 +25,7 @@ Visit <https://pages.nist.gov/800-63-3> for the latest draft.  <br><br>
 </ul>
 </div>
 
-<div class="section-content" markdown="1">
+<div  markdown="1" style="text-align:center">
 <ul class="audiences">
 <li>
   <div>
