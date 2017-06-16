@@ -183,7 +183,9 @@ optgroup{
 
 table{
 	border-collapse:collapse;
-	border-spacing:0
+	border-spacing:0;
+	border-width:0.75pt;
+	border-color:#ffffff;
 }
 
 td,th{
@@ -329,7 +331,7 @@ td,th{
 	}
 
 	.table-bordered th,.table-bordered td{
-		border:1px solid #ddd !important
+		border:0.75px solid #fff !important
 	}
 
 }
