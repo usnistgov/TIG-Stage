@@ -190,6 +190,7 @@ td,th{
 	padding:0
 }
 @page {
+	size: 8.5in 11in;
 	margin-top: 1in;
     	margin-bottom: 1in;
 	margin-left: 1in;
@@ -253,7 +254,7 @@ td,th{
 	p, body{
 		font-family:"Times New Roman";
 		font-size:18pt;
-		padding-bottom:12pt;
+		padding-bottom:18pt;
 	}
 	h1,.h1{
 		font-size:30pt;
@@ -275,7 +276,7 @@ td,th{
 	p,h2,h3{
 		orphans:3;
 		widows:3;
-		padding-bottom:12pt;
+		padding-bottom:18pt;
 	}
 
 	h2,h3{
