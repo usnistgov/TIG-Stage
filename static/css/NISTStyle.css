@@ -249,18 +249,18 @@ td,th{
 		font-size:18pt;
 		padding-bottom:12pt;
 	}
-	h1{
+	h1,.h1{
 		font-size:30pt;
 	}
-	h2{
+	h2,.h2{
 		font-size:18pt;
 		font-weight:bold;
 	}
-	h3{
+	h3,.h3{
 		font-size:17pt;
 		font-weight:bold;
 	}
-	h4{
+	h4,.h4{
 		font-size:17pt;
 	}
 	p,h2,h3{
