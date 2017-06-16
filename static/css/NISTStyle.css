@@ -667,12 +667,12 @@ a.bg-danger:hover{
 ul,ol{
 	font-size:18pt;
 	margin-top:0;
-	margin-bottom:10px
+	margin-bottom:18pt
 }
 
 ul ul,ol ul,ul ol,ol ol{
 	font-size:18pt;
-	margin-bottom:0
+	margin-bottom:18pt
 }
 
 .list-unstyled{
@@ -742,7 +742,7 @@ blockquote{
 	padding:10px 20px;
 	margin:0 0 20px;
 	font-size:18pt;
-	border-left:5px solid #eee
+	border-left:0.75pt solid #000
 }
 
 blockquote p:last-child,blockquote ul:last-child,blockquote ol:last-child{
@@ -786,7 +786,6 @@ address{
 	line-height:1.42857143
 }
 
-code,kbd,pre,samp{
 	font-family:Menlo,Monaco,Consolas,"Courier New",monospace
 }
 
