@@ -249,6 +249,20 @@ td,th{
 		font-size:18pt;
 		padding-bottom:12pt;
 	}
+	h1{
+		font-size:30pt;
+	}
+	h2{
+		font-size:18pt;
+		font-weight:bold;
+	}
+	h3{
+		font-size:16.5pt;
+		font-weight:bold;
+	}
+	h4{
+		font-size:16.5pt;
+	}
 	p,h2,h3{
 		orphans:3;
 		widows:3;
