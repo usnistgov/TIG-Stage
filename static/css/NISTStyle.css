@@ -217,11 +217,11 @@ td,th{
 	}
 
 	a[href]:after{
-		content:" (" attr(href) ")"
+		content: none !important;
 	}
 
 	abbr[title]:after{
-		content:" (" attr(title) ")"
+		content: none !important;
 	}
 
 	a[href^="javascript:"]:after,a[href^="#"]:after{
