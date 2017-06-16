@@ -244,7 +244,7 @@ td,th{
 	img{
 		max-width:100% !important
 	}
-	p{
+	p, body{
 		font-family:"Times New Roman";
 		font-size:12pt;
 		padding-bottom:12pt;
