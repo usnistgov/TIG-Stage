@@ -189,6 +189,12 @@ table{
 td,th{
 	padding:0
 }
+@page {
+	margin-top: 1in;
+    	margin-bottom: 1in;
+	margin-left: 1in;
+	margin-right: 1in;
+}
 
 @media print{
 	*{
@@ -275,7 +281,12 @@ td,th{
 	h2,h3{
 		page-break-after:avoid
 	}
-
+	body {
+		margin-top: 1in; 
+		margin-bottom: 1in; 
+           	margin-left: 1in; 
+		margin-right: 1in;
+	}
 	select{
 		background:#fff !important
 	}
