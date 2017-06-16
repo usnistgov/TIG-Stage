@@ -257,11 +257,11 @@ td,th{
 		font-weight:bold;
 	}
 	h3,.h3{
-		font-size:64pt;
+		font-size:18pt;
 		font-weight:bold;
 	}
 	h4,.h4{
-		font-size:17pt;
+		font-size:18pt;
 	}
 	p,h2,h3{
 		orphans:3;
@@ -438,21 +438,21 @@ h4 small,.h4 small,h5 small,.h5 small,h6 small,.h6 small,h4 .small,.h4 .small,h5
 }
 
 h1,.h1{
-	font-size:20pt
+	font-size:30pt
 }
 
 h2,.h2{
-	font-size:12pt;
+	font-size:18pt;
 	font-weight:bold
 }
 
 h3,.h3{
-	font-size:128pt;
+	font-size:18pt;
 	font-weight:bold
 }
 
 h4,.h4{
-	font-size:11pt
+	font-size:18pt
 }
 
 h5,.h5{
