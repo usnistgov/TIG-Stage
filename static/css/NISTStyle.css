@@ -196,7 +196,7 @@ table{
 	border-collapse:collapse;
 	border-spacing:0;
 	border-width:0.75pt;
-	border-color:#ffffff;
+	border-color:#000000;
 	border-style:solid;
 	max-width:8.5in;
 }
@@ -227,12 +227,12 @@ td,th{
 		display: none;
 	}
 
-	div.container {
+/*	div.container {
 		margin-left:1in;
 		margin-right:1in;
 		max-width:8.5in;
 	}
-
+*/
 	.breaker{
 		page-break-before: always;
 	}
@@ -309,13 +309,13 @@ td,th{
 		font-family:"Times New Roman";
 		font-size:18pt;
 	}
-	body {
+/*	body {
 		margin-top: 1in; 
 		margin-bottom: 1in; 
            	margin-left: 1in; 
 		margin-right: 1in;
 	}
-	
+*/	
 	.page {
 		height:11in;
 		width:8.5in;
