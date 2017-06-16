@@ -303,7 +303,7 @@ html{
 }
 
 body{
-	font-family:"Times New Roman",sans-serif;
+	font-family:"Times New Roman";
 	font-size:12pt;
 	line-height:1.42857143;
 	color:#454441;
@@ -419,19 +419,21 @@ h4 small,.h4 small,h5 small,.h5 small,h6 small,.h6 small,h4 .small,.h4 .small,h5
 }
 
 h1,.h1{
-	font-size:128pt
+	font-size:20pt
 }
 
 h2,.h2{
-	font-size:30px
+	font-size:12pt;
+	font-weight:bold
 }
 
 h3,.h3{
-	font-size:24px
+	font-size:11pt;
+	font-weight:bold
 }
 
 h4,.h4{
-	font-size:18px
+	font-size:11pt
 }
 
 h5,.h5{
