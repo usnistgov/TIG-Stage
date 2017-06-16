@@ -163,7 +163,7 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 }
 
 fieldset{
-	border:1px solid #c0c0c0;
+	border:0.75px solid #ffffff;
 	margin:0 2px;
 	padding:0.35em 0.625em 0.75em
 }
@@ -186,6 +186,7 @@ table{
 	border-spacing:0;
 	border-width:0.75pt;
 	border-color:#ffffff;
+	border-style:solid;
 }
 
 td,th{
