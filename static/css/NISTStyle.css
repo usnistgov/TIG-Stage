@@ -14,7 +14,6 @@
 
 body{
 	margin:0;
-	padding:64pt
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{
@@ -248,7 +247,8 @@ td,th{
 
 	p,h2,h3{
 		orphans:3;
-		widows:3
+		widows:3;
+		padding:36pt
 	}
 
 	h2,h3{
@@ -309,7 +309,6 @@ body{
 	line-height:1.42857143;
 	color:#454441;
 	background-color:#fff;
-	padding:12pt
 }
 
 input,button,select,textarea{
