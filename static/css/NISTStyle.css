@@ -192,7 +192,8 @@ td,th{
 }
 
 @page {
-	size: 8.5in 11in;
+	width: 8.5in;
+	height: 11in;
 	margin-top: 1in;
     	margin-bottom: 1in;
 	margin-left: 1in;
@@ -347,7 +348,9 @@ td,th{
 
 html{
 	font-size:100%;
-	-webkit-tap-highlight-color:rgba(0,0,0,0)
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	width:8.5in;
+	height:11in;
 }
 
 body{
@@ -356,6 +359,8 @@ body{
 	line-height:1.42857143;
 	color:#454441;
 	background-color:#fff;
+	width:8.5in;
+	height:11in;
 }
 
 input,button,select,textarea{
