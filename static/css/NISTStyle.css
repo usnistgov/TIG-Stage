@@ -187,8 +187,10 @@ table{
 }
 
 td,th{
-	padding:0
+	padding:0;
+	font-size:18pt
 }
+
 @page {
 	size: 8.5in 11in;
 	margin-top: 1in;
@@ -282,6 +284,11 @@ td,th{
 	h2,h3{
 		page-break-after:avoid
 	}
+	
+	td, th, ul, ol{
+		font-family:"Times New Roman";
+		font-size:18pt;
+	}
 	body {
 		margin-top: 1in; 
 		margin-bottom: 1in; 
@@ -298,7 +305,8 @@ td,th{
 	}
 
 	.table td,.table th{
-		background-color:#fff !important
+		background-color:#fff !important;
+		font-size:18pt;
 	}
 
 	.btn>.caret,.dropup>.btn>.caret{
@@ -618,11 +626,13 @@ a.bg-danger:hover{
 }
 
 ul,ol{
+	font-size:18pt;
 	margin-top:0;
 	margin-bottom:10px
 }
 
 ul ul,ol ul,ul ol,ol ol{
+	font-size:18pt;
 	margin-bottom:0
 }
 
@@ -653,6 +663,7 @@ dt,dd{
 }
 
 dt{
+	font-size:18pt;
 	font-weight:bold
 }
 
@@ -691,7 +702,7 @@ abbr[title],abbr[data-original-title]{
 blockquote{
 	padding:10px 20px;
 	margin:0 0 20px;
-	font-size:17.5px;
+	font-size:18pt;
 	border-left:5px solid #eee
 }
 
