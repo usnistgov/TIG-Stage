@@ -248,7 +248,7 @@ td,th{
 	p,h2,h3{
 		orphans:3;
 		widows:3;
-		padding:12pt
+		padding-bottom:12pt;
 	}
 
 	h2,h3{
