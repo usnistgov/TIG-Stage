@@ -307,7 +307,8 @@ body{
 	font-size:12pt;
 	line-height:1.42857143;
 	color:#454441;
-	background-color:#fff
+	background-color:#fff;
+	padding:12pt
 }
 
 input,button,select,textarea{
