@@ -253,15 +253,18 @@ td,th{
 		font-size:30pt;
 	}
 	h2,.h2{
+		font-family: "Arial";
 		font-size:18pt;
 		font-weight:bold;
 	}
 	h3,.h3{
-		font-size:18pt;
+		font-family: "Arial";
+		font-size:16.5pt;
 		font-weight:bold;
 	}
 	h4,.h4{
-		font-size:18pt;
+		font-family: "Arial";
+		font-size:16.5pt;
 	}
 	p,h2,h3{
 		orphans:3;
@@ -406,8 +409,14 @@ hr{
 	border:0
 }
 
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+h1,.h1{
 	font-family: "Times New Roman";
+	font-weight:500;
+	line-height:1.1;
+	color:inherit
+}
+h2,h3,h4,h5,h6,.h2,.h3,.h4,.h5,.h6{
+	font-family: "Arial";
 	font-weight:500;
 	line-height:1.1;
 	color:inherit
@@ -447,12 +456,12 @@ h2,.h2{
 }
 
 h3,.h3{
-	font-size:18pt;
+	font-size:16.5pt;
 	font-weight:bold
 }
 
 h4,.h4{
-	font-size:18pt
+	font-size:16.5pt
 }
 
 h5,.h5{
