@@ -1,0 +1,44 @@
+# Site settings
+title: Staging Area For SP 800-63-3 Digital Identity Guidelines
+description: "NIST Special Publication: SP 800-63-3 Digital Identity Guidelines"
+baseurl: "/TIG-Stage" # the subpath of your site, e.g. /blog
+url: "https://pages.nist.gov/" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+exclude:
+- ".ruby-version"
+- ".jekyll-metadata"
+- ".gitignore"
+- ".travis.yml"
+- todo.txt
+- resources
+- Gemfile
+- Gemfile.lock
+- Makefile
+- vendor
+- README.md
+- CONTRIBUTING.md
+- LICENSE.md
+- ".project"
+
+# GitHub information
+org_name: usnistgov
+repo_name: TIG-Stage
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Home
+  url: /TIG-Stage/
+- text: SP 800-63-3
+  url: /TIG-Stage/sp800-63-3/
+- text: SP 800-63A
+  url: /TIG-Stage3/sp800-63a/
+- text: SP 800-63B
+  url: /TIG-Stage/sp800-63b/
+- text: SP 800-63C
+  url: /TIG-Stage/sp800-63c/
+
+host: 0.0.0.0
